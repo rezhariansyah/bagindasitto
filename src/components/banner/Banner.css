@@ -9,7 +9,7 @@
 @media only screen and (max-width: 600px) {
   .mobile {
     height: 500px;
-    background-image: url("../../assets/banners/banner2.jpg");
+    background-image: url("../../assets/banners/compress/bannerMobile.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
