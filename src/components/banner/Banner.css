@@ -1,13 +1,17 @@
 .mobile {
-    height: 640px;
-    background-image: url('../../assets/banners/compress/banner1-min.jpg');
+  height: 640px;
+  background-image: url("../../assets/banners/compress/banner1-min.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile {
+    height: 500px;
+    background-image: url("../../assets/banners/compress/banner1-min.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-@media only screen and (max-width: 600px)  {
-    .mobile {
-        height: 500px;
-    }
+  }
 }
