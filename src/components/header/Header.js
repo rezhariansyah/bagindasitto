@@ -25,13 +25,13 @@ const Example = props => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/" style={{ fontSize: "13px" }}>
+                <NavLink href="/" style={{ fontSize: "13px" }}>
                   HOME
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://github.com/reactstrap/reactstrap"
+                  href="#"
                   style={{ fontSize: "13px" }}
                 >
                   GALERIES
@@ -39,7 +39,7 @@ const Example = props => {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://github.com/reactstrap/reactstrap"
+                  href="#"
                   style={{ fontSize: "13px" }}
                 >
                   BLOGS
@@ -47,7 +47,7 @@ const Example = props => {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://github.com/reactstrap/reactstrap"
+                  href="#"
                   style={{ fontSize: "13px" }}
                 >
                   CATEGORIES
@@ -55,7 +55,7 @@ const Example = props => {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://github.com/reactstrap/reactstrap"
+                  href="#"
                   style={{ fontSize: "13px" }}
                 >
                   CONTACT
