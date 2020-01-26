@@ -16,7 +16,7 @@ const LatestArticles = () => {
                     <p style={{marginTop:"15px"}}>New start is <span style={{fontWeight:"bolder"}}>coming</span></p>
                 </div>
                 <div className="col-md-5 text-center mobileTitle">
-                    <p>My website is under construction. but we are ready to go! I am preparing something extraordinary and interesting for you.</p>
+                    <p>This section is under construction. but we are ready to go! I am preparing something extraordinary and interesting for you.</p>
                 </div>
             </div>
         </div>

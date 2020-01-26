@@ -8,6 +8,7 @@ const Banner1 = () => {
                 className="jumbotron jumbotron-fluid banner mt-4"
             >
             </div>
+            
         </Fragment>
     )
 }
