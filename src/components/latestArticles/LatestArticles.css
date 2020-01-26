@@ -1,0 +1,14 @@
+.icon {
+  width: 120px;
+  height: 130px;
+}
+
+@media only screen and (max-width: 800px) {
+  .mobileTitle {
+      width: 80%;
+  }
+  .icon {
+    width: 90px;
+    height: 100px;
+  }
+}
