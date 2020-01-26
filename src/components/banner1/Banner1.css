@@ -1,0 +1,19 @@
+.banner {
+    height: 640px;
+    background-image: url("../../assets/banners/compress/banner3-min.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .banner {
+      height: 500px;
+      background-image: url("../../assets/banners/compress/banner3-min.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      object-fit: cover;
+    }
+  }
+  
