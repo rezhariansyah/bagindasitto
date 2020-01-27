@@ -76,7 +76,7 @@ class Galeries extends Component {
                 <h1>GALERIES</h1>
               </div>
             </div>
-            <div className="row justify-content-center mx-auto">
+            <div className="row justify-content-center mx-auto mb-5">
               <div className="col-md-10 text-center">
                 <Gallery
                   images={images}

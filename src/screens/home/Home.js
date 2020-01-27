@@ -4,7 +4,7 @@ import Categories from '../../components/categories/Categories';
 import LatestArticles from '../../components/latestArticles/LatestArticles';
 import Banner1 from '../../components/banner1/Banner1';
 import Galeries from '../../components/galleries/Galleries';
-import Footer from '../../components/footer/Footer';
+// import Footer from '../../components/footer/Footer';
 
 
 class Home extends Component {
@@ -16,7 +16,7 @@ class Home extends Component {
                 <LatestArticles />
                 <Banner1 />
                 <Galeries />
-                <Footer />
+                {/* <Footer /> */}
             </Fragment>
         );
     }
