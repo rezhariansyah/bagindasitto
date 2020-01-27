@@ -8,6 +8,13 @@ body {
   overflow-x: hidden; width: 100vw;
 }
 
+@media only screen and (max-width: 800px) {
+  .body {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
