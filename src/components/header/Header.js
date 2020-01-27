@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink
 } from "reactstrap";
+import "./Header.css";
 
 const Example = props => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,8 +19,8 @@ const Example = props => {
     <div>
       <Navbar color="dark" dark expand="md">
         <div className="container">
-          <NavbarBrand href="/" style={{ fontSize: "15px" }}>
-            BAGINDA SITTO SIREGAR
+          <NavbarBrand href="/" className="brand">
+            BAGINDA <span style={{color:"#29BAED"}}>SITTO</span>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
