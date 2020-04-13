@@ -33,7 +33,7 @@ const Categories = () => {
           <div className="card">
             <img src={phinisi} className="card-img-top" alt="..." />
             <div className="title">
-              <Link to='/phinisi'><input type="button" value="PHINISI" className="btn btn-outline-light" /></Link>
+              <Link to='/*/phinisi'><input type="button" value="PHINISI" className="btn btn-outline-light" /></Link>
             </div>
           </div>
         </div>

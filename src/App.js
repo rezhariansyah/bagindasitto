@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Route path="/" component={Home} exact />
-      <Route path="/phinisi" component={Phinisi} exact />
+      <Route path="/*/phinisi" component={Phinisi} exact />
     </BrowserRouter>
   );
 }
