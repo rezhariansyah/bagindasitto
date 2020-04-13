@@ -17,7 +17,7 @@ class ComingSoon extends Component {
               Should be back shortly. Thank you for your patience.
             </p>
             <Link to="/">
-              <a className="notify-btn">
+              <a className="notify-btn" href="/">
                 <b>Home</b>
               </a>
             </Link>
