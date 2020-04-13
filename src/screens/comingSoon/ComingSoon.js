@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./ComingSoon.css";
+// import "./ComingSoon.css";
 import { Link } from "react-router-dom";
 
 class ComingSoon extends Component {
