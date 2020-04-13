@@ -9,7 +9,7 @@ const Categories = () => {
   return (
     <div className="container">
       <div className="row justify-content-center mb-4">
-        <h2>CATEGORIES</h2>
+        <h2>CATEGORIES test</h2>
       </div>
       <div className="row justify-content-sm-center ">
         <div className="col-md-3 col-sm-6 mt-3">
@@ -32,7 +32,7 @@ const Categories = () => {
           <div className="card">
             <img src={health} className="card-img-top" alt="..." />
             <div className="title">
-              <input type="button" value="HEALTH" className="btn btn-outline-light" />
+              <input type="button" value="PHINISI" className="btn btn-outline-light" />
             </div>
           </div>
         </div>
