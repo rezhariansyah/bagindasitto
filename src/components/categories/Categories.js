@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import about from "../../assets/banners/compress/about-min.jpg";
 import travel from "../../assets/banners/compress/travel.png";
 import phinisi from "../../assets/categories/DSC03305-min.jpg";
@@ -9,7 +10,7 @@ const Categories = () => {
   return (
     <div className="container">
       <div className="row justify-content-center mb-4">
-        <h2>CATEGORIES test</h2>
+        <h2>CATEGORIES</h2>
       </div>
       <div className="row justify-content-sm-center ">
         <div className="col-md-3 col-sm-6 mt-3">
@@ -32,7 +33,7 @@ const Categories = () => {
           <div className="card">
             <img src={phinisi} className="card-img-top" alt="..." />
             <div className="title">
-              <input type="button" value="PHINISI" className="btn btn-outline-light" />
+              <Link to='/phinisi'><input type="button" value="PHINISI" className="btn btn-outline-light" /></Link>
             </div>
           </div>
         </div>

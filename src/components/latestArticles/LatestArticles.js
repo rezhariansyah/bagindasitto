@@ -8,7 +8,7 @@ const LatestArticles = () => {
             <div className="row justify-content-center mb-4 mt-5">
                 <h2>LATEST ARTICLES</h2>
             </div>
-            <div className="row justify-content-center mx-auto">
+            <div className="row justify-content-center mx-auto mb-5">
                 <div className="col-md-12 text-center">
                     <img className="icon" src={comingSoon} alt=""/>
                 </div>

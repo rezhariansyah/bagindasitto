@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -19,9 +20,9 @@ const Example = props => {
     <div>
       <Navbar color="dark" dark expand="md">
         <div className="container">
-          <NavbarBrand href="/" className="brand">
+          <Link to="/"><NavbarBrand className="brand">
             BAGINDA <span style={{color:"#29BAED"}}>SITTO</span>
-          </NavbarBrand>
+          </NavbarBrand></Link>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
