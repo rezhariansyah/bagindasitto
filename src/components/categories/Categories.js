@@ -1,7 +1,7 @@
 import React from "react";
 import about from "../../assets/banners/compress/about-min.jpg";
 import travel from "../../assets/banners/compress/travel.png";
-import health from "../../assets/banners/compress/health-min.jpg";
+import phinisi from "../../assets/categories/DSC03305-min.jpg";
 import tips from "../../assets/banners/compress/tips-min.jpg";
 import "./Categories.css";
 
@@ -30,7 +30,7 @@ const Categories = () => {
         </div>
         <div className="col-md-3 col-sm-6 mt-3">
           <div className="card">
-            <img src={health} className="card-img-top" alt="..." />
+            <img src={phinisi} className="card-img-top" alt="..." />
             <div className="title">
               <input type="button" value="PHINISI" className="btn btn-outline-light" />
             </div>
