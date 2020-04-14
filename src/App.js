@@ -4,7 +4,9 @@ import Header from "./components/header/Header";
 import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./screens/home/Home";
 import Phinisi from "./screens/phinisi/Phinisi";
-import UnderConstruction from "./screens/underConstruction/UnderConstruction";
+import About from "./screens/about/About";
+import Tips from "./screens/tips/Tips";
+import Travel from "./screens/travel/Travel";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Header />
       <Route path="/" component={Home} exact />
       <Route path="/phinisi" component={Phinisi} exact />
-      <Route path="/under-construction" component={UnderConstruction} exact />
+      <Route path="/about" component={About} exact />
+      <Route path="/tips" component={Tips} exact />
+      <Route path="/travel" component={Travel} exact />
     </BrowserRouter>
   );
 }

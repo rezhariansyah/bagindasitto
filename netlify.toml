@@ -4,6 +4,16 @@
   status = 200
 
 [[redirects]]
-  from = "/under-construction"
+  from = "/about"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/travel"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/tips"
   to = "/"
   status = 200

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import about from "../../assets/banners/compress/about-min.jpg";
 import travel from "../../assets/banners/compress/travel.png";
-import phinisi from "../../assets/categories/DSC03305-min.jpg";
+import phinisi from "../../assets/categories/1-min.png";
 import tips from "../../assets/banners/compress/tips-min.jpg";
 import "./Categories.css";
 
@@ -17,7 +17,7 @@ const Categories = () => {
           <div className="card">
             <img src={about} className="card-img-top" alt="..." />
             <div className="title">
-              <input type="button" value="ABOUT" className="btn btn-outline-light" />
+            <Link to='/phinisi'><input type="button" value="ABOUT" className="btn btn-outline-light" /></Link>
             </div>
           </div>
         </div>

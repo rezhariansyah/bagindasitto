@@ -1,46 +1,114 @@
-a, button{ display: inline-block; text-decoration: none; color: inherit; transition: all .3s; line-height: 1; }
+a,
+button {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+  line-height: 1;
+}
 
 /* ---------------------------------
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
 
-.center-text{ text-align: center; } 
+.center-text {
+  text-align: center;
+}
 
-.display-table{ display: table; height: 100%; width: 100%; }
+.display-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
 
-.display-table-cell{ display: table-cell; vertical-align: middle; }
+.display-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
 
+.full-height {
+  height: 100%;
+}
 
-.full-height{ height: 100%; }
+.position-static {
+  position: static;
+}
 
-.position-static{ position: static; }
-
-.font-white{ color: #fff; }
-
+.font-white {
+  color: #fff;
+}
 
 /* ---------------------------------
 3. MAIN SECTION
 --------------------------------- */
 
-.main-area{ position: relative; height: 100vh; z-index: 1; padding: 0 20px; background-size: cover; color: #fff; background-image: url("comingsoon-min.jpg"); background-position: center center; }
+.main-area {
+  position: relative;
+  height: 100vh;
+  padding: 0 20px;
+  background-size: cover;
+  color: #fff;
+  background-image: url("comingsoon-min.jpg");
+  background-position: center center;
+  margin-top: -58px;
+}
 
-.main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
-	opacity: .4; background: #000; }
+.main-area:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.4;
+  background: #000;
+}
 
-.main-area .desc{ margin: 20px auto; max-width: 500px; }
-	
-.main-area .notify-btn{ padding: 13px 35px; border-radius: 50px; border: 2px solid #29BAED;
-	color: #fff; background: #29BAED; }
+.main-area .desc {
+  margin: 20px auto;
+  max-width: 500px;
+}
 
-.main-area .notify-btn:hover{ background: none; text-decoration: none; }
+.main-area .notify-btn {
+  padding: 13px 35px;
+  border-radius: 50px;
+  border: 2px solid #29baed;
+  color: #fff;
+  background: #29baed;
+}
 
-.main-area .social-btn{ position: absolute; bottom: 40px; width: 100%; left: 50%; transform: translateX(-50%); }
+.main-area .notify-btn:hover {
+  background: none;
+  text-decoration: none;
+}
 
-.main-area .social-btn > li > a{ margin: 0 10px; padding-bottom: 7px; position: relative; overflow: hidden; }
+.main-area .social-btn {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-.main-area .social-btn > li > a:after{ content:''; position: absolute; bottom: 0; left: 0; right: 0; 
-	transition: all .2s; height: 2px; background: #29BAED; }
+.main-area .social-btn > li > a {
+  margin: 0 10px;
+  padding-bottom: 7px;
+  position: relative;
+  overflow: hidden;
+}
 
-	
-.main-area .social-btn > li > a:hover:after{ transform: translateX(100%); }
+.main-area .social-btn > li > a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.2s;
+  height: 2px;
+  background: #29baed;
+}
 
+.main-area .social-btn > li > a:hover:after {
+  transform: translateX(100%);
+}
