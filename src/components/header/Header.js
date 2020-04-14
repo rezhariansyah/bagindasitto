@@ -36,7 +36,7 @@ const Example = props => {
                   href="#"
                   style={{ fontSize: "13px", fontWeight: "bolder" }}
                 >
-                  GALERIES
+                  PHINISI
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -44,7 +44,7 @@ const Example = props => {
                   href="#"
                   style={{ fontSize: "13px", fontWeight: "bolder" }}
                 >
-                  BLOGS
+                  TRAVEL
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -52,7 +52,7 @@ const Example = props => {
                   href="#"
                   style={{ fontSize: "13px", fontWeight: "bolder" }}
                 >
-                  CATEGORIES
+                  ABOUT ME
                 </NavLink>
               </NavItem>
               <NavItem>
