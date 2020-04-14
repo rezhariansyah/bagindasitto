@@ -2,3 +2,7 @@
   from = "/phinisi"
   to = "/"
   status = 200
+
+  from = "/under-constructor"
+  to = "/"
+  status = 200
