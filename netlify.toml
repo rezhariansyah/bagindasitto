@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/phinisi"
+  to = "/"
+  status = 200
