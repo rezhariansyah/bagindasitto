@@ -17,7 +17,7 @@ const Categories = () => {
           <div className="card">
             <img src={about} className="card-img-top" alt="..." />
             <div className="title">
-            <Link to='/phinisi'><input type="button" value="ABOUT" className="btn btn-outline-light" /></Link>
+            <Link to='/about'><input type="button" value="ABOUT" className="btn btn-outline-light" /></Link>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@ const Categories = () => {
           <div className="card">
             <img src={travel} className="card-img-top" alt="..." />
             <div className="title">
-              <input type="button" value="TRAVEL" className="btn btn-outline-light" />
+              <Link to='/travel'><input type="button" value="TRAVEL" className="btn btn-outline-light" /></Link>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ const Categories = () => {
           <div className="card">
             <img src={tips} className="card-img-top" alt="..." />
             <div className="title">
-              <input type="button" value="TIPS" className="btn btn-outline-light" />
+              <Link to='/tips'><input type="button" value="TIPS" className="btn btn-outline-light" /></Link>
             </div>
           </div>
         </div>
