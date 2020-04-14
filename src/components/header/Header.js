@@ -18,7 +18,7 @@ const Example = props => {
 
   return (
     <div>
-      <Navbar color="dark" dark expand="md">
+      <Navbar light expand="md">
         <div className="container">
           <Link to="/"><NavbarBrand className="brand">
             BAGINDA <span style={{color:"#29BAED"}}>SITTO</span>
@@ -27,14 +27,14 @@ const Example = props => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/" style={{ fontSize: "13px" }}>
+                <NavLink href="/" style={{ fontSize: "13px", fontWeight: "bolder" }}>
                   HOME
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
                   href="#"
-                  style={{ fontSize: "13px" }}
+                  style={{ fontSize: "13px", fontWeight: "bolder" }}
                 >
                   GALERIES
                 </NavLink>
@@ -42,7 +42,7 @@ const Example = props => {
               <NavItem>
                 <NavLink
                   href="#"
-                  style={{ fontSize: "13px" }}
+                  style={{ fontSize: "13px", fontWeight: "bolder" }}
                 >
                   BLOGS
                 </NavLink>
@@ -50,7 +50,7 @@ const Example = props => {
               <NavItem>
                 <NavLink
                   href="#"
-                  style={{ fontSize: "13px" }}
+                  style={{ fontSize: "13px", fontWeight: "bolder" }}
                 >
                   CATEGORIES
                 </NavLink>
@@ -58,7 +58,7 @@ const Example = props => {
               <NavItem>
                 <NavLink
                   href="#"
-                  style={{ fontSize: "13px" }}
+                  style={{ fontSize: "13px", fontWeight: "bolder" }}
                 >
                   CONTACT
                 </NavLink>

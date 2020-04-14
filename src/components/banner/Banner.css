@@ -1,18 +1,20 @@
 .mobile {
   height: 640px;
   background-image: url("../../assets/banners/compress/banner1-min.jpg");
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: -56px;
 }
 
 @media only screen and (max-width: 600px) {
   .mobile {
-    height: 500px;
+    height: 700px;
     background-image: url("../../assets/banners/compress/bannerMobile.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
+    margin-top: -200px;
   }
 }
