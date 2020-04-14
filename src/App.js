@@ -7,6 +7,7 @@ import Phinisi from "./screens/phinisi/Phinisi";
 import About from "./screens/about/About";
 import Tips from "./screens/tips/Tips";
 import Travel from "./screens/travel/Travel";
+import Contact from "./screens/contact/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/about" component={About} exact />
       <Route path="/tips" component={Tips} exact />
       <Route path="/travel" component={Travel} exact />
+      <Route path="/contact" component={Contact} exact />
     </BrowserRouter>
   );
 }

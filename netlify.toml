@@ -17,3 +17,8 @@
   from = "/tips"
   to = "/"
   status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/"
+  status = 200
