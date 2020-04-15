@@ -97,19 +97,19 @@ class Galeries extends Component {
               <div className="col-8 dimobile" style={{ marginTop: "22px" }}>
                 <h3
                   className="mr-3"
-                  style={{ color: "white", display: "inline" }}
+                  style={{ color: "#7B8488", display: "inline" }}
                 >
                   <i className="fa fa-youtube-play" aria-hidden="true" />
                 </h3>
                 <h3
                   className="mr-3"
-                  style={{ color: "white", display: "inline" }}
+                  style={{ color: "#7B8488", display: "inline" }}
                 >
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                 </h3>
                 <h3
                   className="mr-3"
-                  style={{ color: "white", display: "inline" }}
+                  style={{ color: "#7B8488", display: "inline" }}
                 >
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                 </h3>
@@ -118,7 +118,7 @@ class Galeries extends Component {
             <div className="row justify-content-center text-center mt-2">
               <h6
                 className="email"
-                style={{ color: "white", display: "inline" }}
+                style={{ color: "#7B8488", display: "inline" }}
               >
                 baginda13srg@gmail.com
               </h6>
