@@ -87,7 +87,7 @@ class Galeries extends Component {
         </div>
         <div
           style={{
-            backgroundColor: "#277189",
+            backgroundColor: "#0E1E24",
             height: "100px",
             marginTop: "100px",
           }}
