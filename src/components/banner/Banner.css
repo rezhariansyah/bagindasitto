@@ -29,7 +29,7 @@
 }
 
 .mobile > .inner {
-  position: relative;
+  position: absolute;
   z-index: 2;
   margin-top: 27%;
   /* margin-left: 70px; */
@@ -70,7 +70,7 @@
   }
 
   .mobile > .inner {
-    position: relative;
+    position: absolute;
     z-index: 2;
     margin-top: 110%;
     /* margin-left: 70px; */
