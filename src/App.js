@@ -20,7 +20,7 @@ function App() {
       <meta name="description" content="Hello, as a Bira based Architects, Boat Consultant, and Content Creator. Sitto and team has completed several boat design and construction project - Producing Eco Friendly Boat, Out of Box design, and Boat according to cruise safety standards. We're also your travelmate,
       let's go on an adventure" data-react-helmet="true" />
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <link rel="shortcut icon" href={Favicon} />
+      <link rel="shortcut icon" href={Favicon}/>
     </Helmet>
       <BrowserRouter>
         <Header />
