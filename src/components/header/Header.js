@@ -17,7 +17,7 @@ const Example = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="barbar">
       <Navbar light expand="md">
         <div className="container">
           <Link to="/">

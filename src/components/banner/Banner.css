@@ -1,10 +1,61 @@
 .mobile {
-  height: 640px;
+  /* height: 640px;
   background-image: url("../../assets/banners/compress/banner1-min.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: -56px; */
+
+  /* position: relative; */
+  height: 640px;
+  padding: 0 20px;
+  background-size: cover;
+  color: #fff;
+  background-image: url("../../assets/banners/compress/banner1-min.jpg");
+  background-position: center center;
   margin-top: -56px;
+}
+
+.mobile > .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 1;
+  opacity: 0.1;
+  height: 630px;
+}
+
+.mobile > .inner {
+  position: relative;
+  z-index: 2;
+  margin-top: 27%;
+  /* margin-left: 70px; */
+  text-align: left;
+}
+
+.caption {
+  width: 100%;
+  padding-left: 13%;
+  padding-right: 40%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile > .inner {
+    position: relative;
+    z-index: 2;
+    margin-top: 43%;
+    /* margin-left: 70px; */
+    text-align: center;
+  }
+
+  .caption {
+    width: 100%;
+    padding-left: 13%;
+    padding-right: 13%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -16,5 +67,32 @@
     background-repeat: no-repeat;
     object-fit: cover;
     margin-top: -250px;
+  }
+
+  .mobile > .inner {
+    position: relative;
+    z-index: 2;
+    margin-top: 110%;
+    /* margin-left: 70px; */
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .mobile > .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 1;
+    opacity: 0.1;
+    height: 507px;
+  }
+
+  .caption {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }

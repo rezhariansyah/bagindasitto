@@ -72,7 +72,7 @@ class Galeries extends Component {
         <div className="container">
           <div className="row justify-content-center mt-5 mb-5">
             <div className="col-8 text-center">
-              <h1>GALERIES</h1>
+              <h2>GALERIES</h2>
             </div>
           </div>
           <div className="row justify-content-center mx-auto mb-5">
