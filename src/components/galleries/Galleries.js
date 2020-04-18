@@ -69,10 +69,10 @@ class Galeries extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container">
+        <div className="container" style={{marginTop:"100px"}}>
           <div className="row justify-content-center mt-5 mb-5">
             <div className="col-8 text-center">
-              <h2>GALERIES</h2>
+              <h2 style={{textShadow:"3px 3px 4px rgba(172,172,172,0.99)"}}>GALERIES</h2>
             </div>
           </div>
           <div className="row justify-content-center mx-auto mb-5">

@@ -13,7 +13,7 @@ class Home extends Component {
             <Fragment>
                 <Banner />
                 <Categories />
-                <LatestArticles />
+                {/* <LatestArticles /> */}
                 <Banner1 />
                 <Galeries />
                 {/* <Footer /> */}
