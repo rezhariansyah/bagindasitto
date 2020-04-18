@@ -12,7 +12,7 @@ const Banner = () => {
             Creator. Sitto and team has completed several boat design and
             construction project - Producing Eco Friendly Boat, Out of Box
             design, and Boat according to cruise safety standards. We're also
-            your travelmate, <br/> let's go on an adventure"
+            your travelmate, let's go on an adventure"
           </p>
         </div>
       </div>
