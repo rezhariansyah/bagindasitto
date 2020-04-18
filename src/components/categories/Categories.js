@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import about from "../../assets/banners/compress/about-min.jpg";
 import travel from "../../assets/banners/compress/travel.png";
-import phinisi from "../../assets/categories/DSCF9255-min.JPG";
+import phinisi from "../../assets/categories/maps-min.png";
 import tips from "../../assets/banners/compress/tips-min.jpg";
 import "./Categories.css";
 
