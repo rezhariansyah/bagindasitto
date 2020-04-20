@@ -1,0 +1,61 @@
+.mobilePhinisi {
+  height: 400px;
+  padding: 0 20px;
+  background-size: cover;
+  color: #fff;
+  background-image: url("../../assets/phinisi/phinisi-banner.jpeg");
+  background-position: center center;
+  margin-top: -56px;
+}
+
+.mobilePhinisi > .overlayPhinisi {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 1;
+  opacity: 0.1;
+  height: 390px;
+}
+
+.slider-image {
+  width: 327px;
+  height: 473px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+  .slider-image {
+    width: 270px;
+    height: 427px;
+    object-fit: cover;
+  }
+
+  .overlayPhinisi {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobilePhinisi {
+    height: 700px;
+    background-image: url("../../assets/phinisi/phinisi-banner.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: -250px;
+  }
+
+  .slider-image {
+    width: 115px;
+    height: 177px;
+    object-fit: cover;
+  }
+
+  .overlayPhinisi {
+    display: none;
+  }
+}
