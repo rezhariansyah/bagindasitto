@@ -107,12 +107,6 @@ class Galeries extends Component {
                 >
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                 </h3>
-                <h3
-                  className="mr-3"
-                  style={{ color: "#7B8488", display: "inline" }}
-                >
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </h3>
               </div>
             </div>
             <div className="row justify-content-center text-center mt-2">
