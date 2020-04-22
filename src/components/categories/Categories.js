@@ -41,7 +41,7 @@ const Categories = () => {
           <div className="card">
             <img src={tips} className="card-img-top" alt="..." />
             <div className="title">
-              <Link to='/tips'><input type="button" value="TIPS" className="btn btn-outline-light" /></Link>
+              <Link to='/tips'><input type="button" value="SUSTAINABLE" className="btn btn-outline-light" /></Link>
             </div>
           </div>
         </div>
