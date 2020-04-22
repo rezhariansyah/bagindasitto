@@ -8,11 +8,16 @@ import {
   Nav,
   NavItem,
   NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText,
 } from "reactstrap";
 import "./Header.css";
 
 const Example = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen, dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
@@ -29,42 +34,64 @@ const Example = (props) => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link to="/">
+                <Link to="/" style={{ textDecoration: "none" }}>
                   <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
                     HOME
                   </NavLink>
                 </Link>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <Link to="/phinisi">
                   <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
                     PHINISI
                   </NavLink>
                 </Link>
-              </NavItem>
+              </NavItem> */}
+              <Collapse isOpen={isOpen} navbar>
+                <Nav className="mr-auto" navbar>
+                  <UncontrolledDropdown nav inNavbar>
+                    <DropdownToggle
+                      nav
+                      caret
+                      style={{ fontSize: "13px", fontWeight: "bolder" }}
+                    >
+                      PHINISI
+                    </DropdownToggle>
+                    <DropdownMenu
+                      right
+                      style={{ position: "absolute", right: "50%" }}
+                    >
+                      <DropdownItem tag={Link} to="/panrita">Panrita</DropdownItem>
+
+                      <DropdownItem>Tamparang</DropdownItem>
+                      <DropdownItem>Lopi</DropdownItem>
+                    </DropdownMenu>
+                  </UncontrolledDropdown>
+                </Nav>
+              </Collapse>
               <NavItem>
-                <Link to="/travel">
+                <Link to="/travel" style={{ textDecoration: "none" }}>
                   <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
                     TRAVEL
                   </NavLink>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to="/about">
+                <Link to="/about" style={{ textDecoration: "none" }}>
                   <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
                     ABOUT ME
                   </NavLink>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to="/tips">
+                <Link to="/tips" style={{ textDecoration: "none" }}>
                   <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
                     TIPS
                   </NavLink>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to="/contact">
+                <Link to="/contact" style={{ textDecoration: "none" }}>
                   <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
                     CONTACT
                   </NavLink>

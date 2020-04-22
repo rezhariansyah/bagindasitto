@@ -10,6 +10,7 @@ import About from "./screens/about/About";
 import Tips from "./screens/tips/Tips";
 import Travel from "./screens/travel/Travel";
 import Contact from "./screens/contact/Contact";
+import Panrita from "./screens/panrita/Panrita";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/tips" component={Tips} exact />
         <Route path="/travel" component={Travel} exact />
         <Route path="/contact" component={Contact} exact />
+        <Route path="/panrita" component={Panrita} exact />
       </BrowserRouter>
     </div>
   );

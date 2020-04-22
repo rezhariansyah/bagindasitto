@@ -22,3 +22,8 @@
   from = "/contact"
   to = "/"
   status = 200
+
+[[redirects]]
+  from = "/panrita"
+  to = "/"
+  status = 200
