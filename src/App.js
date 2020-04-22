@@ -11,6 +11,8 @@ import Tips from "./screens/tips/Tips";
 import Travel from "./screens/travel/Travel";
 import Contact from "./screens/contact/Contact";
 import Panrita from "./screens/panrita/Panrita";
+import Tamparang from "./screens/tamparang/Tamparang";
+import Lopi from "./screens/lopi/Lopi";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
         <Route path="/travel" component={Travel} exact />
         <Route path="/contact" component={Contact} exact />
         <Route path="/panrita" component={Panrita} exact />
+        <Route path="/tamparang" component={Tamparang} exact />
+        <Route path="/lopi" component={Lopi} exact />
       </BrowserRouter>
     </div>
   );

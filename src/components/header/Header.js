@@ -62,9 +62,8 @@ const Example = (props) => {
                       style={{ position: "absolute", right: "50%" }}
                     >
                       <DropdownItem tag={Link} to="/panrita">Panrita</DropdownItem>
-
-                      <DropdownItem>Tamparang</DropdownItem>
-                      <DropdownItem>Lopi</DropdownItem>
+                      <DropdownItem tag={Link} to="/tamparang">Tamparang</DropdownItem>
+                      <DropdownItem tag={Link} to="/lopi">Lopi</DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>

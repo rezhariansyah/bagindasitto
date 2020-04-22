@@ -27,3 +27,13 @@
   from = "/panrita"
   to = "/"
   status = 200
+
+[[redirects]]
+  from = "/tamparang"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/lopi"
+  to = "/"
+  status = 200
