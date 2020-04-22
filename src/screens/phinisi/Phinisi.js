@@ -41,7 +41,6 @@ class Phinisi extends Component {
                 <h3 style={{ display: "inline" }} className="mr-3 title-slider">
                   "PANRITA"
                 </h3>
-                <p style={{ display: "inline" }}>Lorem ipsum dolor sit amet</p>
               </div>
             </div>
           </div>
@@ -73,7 +72,6 @@ class Phinisi extends Component {
                 <h3 style={{ display: "inline" }} className="mr-3 title-slider">
                   "TAMPARANG"
                 </h3>
-                <p style={{ display: "inline" }}>Lorem ipsum dolor</p>
               </div>
             </div>
           </div>
@@ -105,7 +103,6 @@ class Phinisi extends Component {
                 <h3 style={{ display: "inline" }} className="mr-3 title-slider">
                   "LOPI"
                 </h3>
-                <p style={{ display: "inline" }}>Lorem ipsum dolor sit amet</p>
               </div>
             </div>
           </div>
