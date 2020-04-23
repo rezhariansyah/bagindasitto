@@ -19,6 +19,7 @@ import lopi1 from "../../assets/phinisi/lopi/lopi1.jpg";
 import lopi2 from "../../assets/phinisi/lopi/lopi2.jpg";
 import lopi3 from "../../assets/phinisi/lopi/lopi3.JPG";
 import lopi4 from "../../assets/phinisi/lopi/lopi4.JPG";
+import titlePhinisi from "../../assets/phinisi/Ship Consultant.png";
 import logo from "../../assets/phinisi/PNG5.png";
 class Phinisi extends Component {
   render() {
@@ -30,6 +31,7 @@ class Phinisi extends Component {
             <div className="row align-items-end">
               <div className="col">
                 <img className="logo-riara" src={logo} alt="..." />
+                {/* <img className="logo-riara" src={titlePhinisi} alt="..." /> */}
               </div>
             </div>
           </div>
