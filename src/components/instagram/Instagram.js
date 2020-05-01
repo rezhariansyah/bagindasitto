@@ -34,28 +34,76 @@ const Instagram = () => {
                 </a>
               </div>
               <div className="col-6 col-md-4 right-img text-align-left">
-                <img src={gambar2} className="instagram-img mt-1" alt="..." />
+                <a
+                  href="https://www.instagram.com/p/Bud5K97B7YL/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gambar2} className="instagram-img mt-1" alt="..." />
+                </a>
               </div>
               <div className="col-6 col-md-4 left-img text-align-right">
-                <img src={gambar3} className="instagram-img mt-1" alt="..." />
+                <a
+                  href="https://www.instagram.com/p/BlRfQPKlSYF/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gambar3} className="instagram-img mt-1" alt="..." />
+                </a>
               </div>
               <div className="col-6 col-md-4 right-img text-align-left">
-                <img src={gambar4} className="instagram-img mt-1" alt="..." />
+                <a
+                  href="https://www.instagram.com/p/B6Dn3_tnGKQ/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gambar4} className="instagram-img mt-1" alt="..." />
+                </a>
               </div>
               <div className="col-6 col-md-4 left-img text-align-right">
-                <img src={gambar5} className="instagram-img mt-1" alt="..." />
+                <a
+                  href="https://www.instagram.com/p/Bl8Dl-JAzeD/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gambar5} className="instagram-img mt-1" alt="..." />
+                </a>
               </div>
               <div className="col-6 col-md-4 right-img text-align-left">
-                <img src={gambar6} className="instagram-img mt-1" alt="..." />
+                <a
+                  href="https://www.instagram.com/p/BlIYCxNgKGI/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gambar6} className="instagram-img mt-1" alt="..." />
+                </a>
               </div>
               <div className="col-6 col-md-4 left-img text-align-right">
-                <img src={gambar7} className="instagram-img mt-1" alt="..." />
+                <a
+                  href="https://www.instagram.com/p/B5fTHJFnKbM/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gambar7} className="instagram-img mt-1" alt="..." />
+                </a>
               </div>
               <div className="col-6 col-md-4 right-img text-align-left">
-                <img src={gambar8} className="instagram-img mt-1" alt="..." />
+                <a
+                  href="https://www.instagram.com/p/ByfW41innru/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gambar8} className="instagram-img mt-1" alt="..." />
+                </a>
               </div>
               <div className="col-6 col-md-4">
-                <img src={gambar9} className="instagram-img mt-1" alt="..." />
+                <a
+                  href="https://www.instagram.com/p/B10-fg4nIjb/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gambar9} className="instagram-img mt-1" alt="..." />
+                </a>
               </div>
             </div>
           </div>
