@@ -69,10 +69,12 @@ class Galeries extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container" style={{marginTop:"100px"}}>
+        <div className="container" style={{ marginTop: "100px" }}>
           <div className="row justify-content-center mt-5 mb-5">
             <div className="col-8 text-center">
-              <h2 style={{textShadow:"3px 3px 4px rgba(172,172,172,0.99)"}}>GALERIES</h2>
+              <h2 style={{ textShadow: "3px 3px 4px rgba(172,172,172,0.99)" }}>
+                GALERIES
+              </h2>
             </div>
           </div>
           <div className="row justify-content-center mx-auto mb-5">
@@ -99,13 +101,27 @@ class Galeries extends Component {
                   className="mr-3"
                   style={{ color: "#7B8488", display: "inline" }}
                 >
-                  <i className="fa fa-youtube-play" aria-hidden="true" />
+                  <a
+                    style={{ color: "#7B8488", cursor: "pointer" }}
+                    target="_blank"
+                    href="https://www.youtube.com/channel/UCvIVcgltlt0D_y0VLlveWGQ"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-youtube-play" aria-hidden="true" />
+                  </a>
                 </h3>
                 <h3
                   className="mr-3"
                   style={{ color: "#7B8488", display: "inline" }}
                 >
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <a
+                    href="https://www.instagram.com/backpackersopan/"
+                    style={{ color: "#7B8488", cursor: "pointer" }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
                 </h3>
               </div>
             </div>
