@@ -1,0 +1,50 @@
+.map {
+  height: 403;
+}
+
+.instagram-img {
+  height: 185px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .instagram-img {
+    height: 155px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .instagram-img {
+    height: 115px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .instagram-img {
+    height: 160px;
+  }
+  .left-img {
+    padding-right: 2px !important;
+  }
+  .right-img {
+    padding-left: 2px !important;
+  }
+  .text-align-right {
+    text-align: right;
+  }
+  .text-align-left {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .instagram-img {
+    height: 160px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .instagram-img {
+    height: 140px;
+  }
+}
