@@ -13,10 +13,10 @@ import './Banner1.css'
 
 const items = [
   {
-    src: about,
+    src: travel,
   },
   {
-    src: travel,
+    src: about,
   },
   {
     src: phinisi,
