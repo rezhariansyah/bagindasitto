@@ -20,6 +20,7 @@ import lopi2 from "../../assets/phinisi/lopi/lopi2.jpg";
 import lopi3 from "../../assets/phinisi/lopi/lopi3.JPG";
 import lopi4 from "../../assets/phinisi/lopi/lopi4.JPG";
 import logo from "../../assets/phinisi/PNG5.png";
+import Footer from "../../components/footer/Footer";
 class Phinisi extends Component {
   render() {
     return (
@@ -123,41 +124,8 @@ class Phinisi extends Component {
               </div>
             </Carousel>
           </div>
-          <div
-            style={{
-              backgroundColor: "#0E1E24",
-              height: "100px",
-              marginTop: "100px",
-            }}
-          >
-            <div className="container">
-              <div className="row justify-content-center text-center">
-                <div className="col-8 dimobile" style={{ marginTop: "22px" }}>
-                  <h3
-                    className="mr-3"
-                    style={{ color: "#7B8488", display: "inline" }}
-                  >
-                    <i className="fa fa-youtube-play" aria-hidden="true" />
-                  </h3>
-                  <h3
-                    className="mr-3"
-                    style={{ color: "#7B8488", display: "inline" }}
-                  >
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                  </h3>
-                </div>
-              </div>
-              <div className="row justify-content-center text-center mt-2">
-                <h6
-                  className="email"
-                  style={{ color: "#7B8488", display: "inline" }}
-                >
-                  baginda13srg@gmail.com
-                </h6>
-              </div>
-            </div>
-          </div>
         </div>
+        <Footer />
       </Fragment>
     );
   }
