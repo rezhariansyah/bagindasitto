@@ -14,18 +14,20 @@ import gambar9 from "../../assets/instagram/gambar9.jpg";
 const Instagram = () => {
   return (
     <Fragment>
-      <div className="container mt-5">
+      <div className="container" style={{ marginTop: "100px" }}>
         <div className="row">
-          <div className="col-md-6">
-     
-          </div>
+          <div className="col-md-6"></div>
           <div className="col-md-6">
             <div className="row">
-              <div className="col-12 text-center">
-                <p>Instagram</p>
+              <div className="col-12 text-center mb-3">
+                <h3
+                  style={{ textShadow: "3px 3px 4px rgba(172,172,172,0.99)" }}
+                >
+                  Instagram
+                </h3>
               </div>
             </div>
-            <div className="row justify-content-center text-center">
+            <div className="row justify-content-center text-center align-items-center">
               <div className="col-6 col-md-4 left-img text-align-right">
                 <a
                   href="https://www.instagram.com/p/Bs5guSJg7BB/"

@@ -1,0 +1,21 @@
+.logo-client {
+  width: 150px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo-client {
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-client {
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .logo-client {
+    width: 100px;
+  }
+}
