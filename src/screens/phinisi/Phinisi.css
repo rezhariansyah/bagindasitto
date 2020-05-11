@@ -1,29 +1,17 @@
 .mobilePhinisi {
-  height: 640px;
+  height: 700px;
   padding: 0 20px;
   background-size: cover;
   color: #fff;
-  background-image: url("../../assets/phinisi/phinisi-banner.jpeg");
+  background-image: url("../../assets/phinisi/banner/web.jpg");
   background-position: center center;
-  margin-top: -56px;
-}
-
-.mobilePhinisi > .overlayPhinisi {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  z-index: 1;
-  opacity: 0.1;
-  height: 630px;
+  margin-top: -100px;
 }
 
 .logo-riara {
-  width: 200px;
-  top: 375px;
-  left: 0;
+  width: 140px;
+  top: 460px;
+  left: 1000px;
   position: absolute;
 }
 
@@ -56,15 +44,34 @@
     object-fit: cover;
   }
 
-  .overlayPhinisi {
-    display: none;
+  .logo-riara {
+    width: 140px;
+    top: 460px;
+    left: 790px;
+    position: absolute;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-riara {
+    width: 140px;
+    top: 460px;
+    left: 576px;
+    position: absolute;
+  }
+
+  .slider-image {
+    width: 210px;
+    height: 350px;
+    object-fit: cover;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
   .mobilePhinisi {
     height: 700px;
-    background-image: url("../../assets/phinisi/phinisi-banner.jpeg");
+    background-image: url("../../assets/phinisi/banner/mobile.JPG");
     background-position: 40%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,14 +86,18 @@
     object-fit: cover;
   }
 
-  .overlayPhinisi {
-    display: none;
-  }
-
   .logo-riara {
     width: 100px;
     top: 550px;
     left: 16px;
     position: absolute;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .slider-image {
+    width: 80px;
+    height: 150px;
+    object-fit: cover;
   }
 }

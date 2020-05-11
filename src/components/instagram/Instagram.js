@@ -16,7 +16,9 @@ const Instagram = () => {
     <Fragment>
       <div className="container mt-5">
         <div className="row">
-          <div className="col-md-6"></div>
+          <div className="col-md-6">
+     
+          </div>
           <div className="col-md-6">
             <div className="row">
               <div className="col-12 text-center">
@@ -109,7 +111,6 @@ const Instagram = () => {
           </div>
         </div>
       </div>
-      
     </Fragment>
   );
 };

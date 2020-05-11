@@ -26,12 +26,10 @@ class Phinisi extends Component {
     return (
       <Fragment>
         <div className="jumbotron jumbotron-fluid mobilePhinisi">
-          <div className="overlayPhinisi" />
           <div className="container">
             <div className="row align-items-end">
               <div className="col">
                 <img className="logo-riara" src={logo} alt="..." />
-                {/* <img className="logo-riara" src={titlePhinisi} alt="..." /> */}
               </div>
             </div>
           </div>
