@@ -10,13 +10,29 @@ import gambar6 from "../../assets/instagram/gambar6.jpg";
 import gambar7 from "../../assets/instagram/gambar7.jpg";
 import gambar8 from "../../assets/instagram/gambar8.jpg";
 import gambar9 from "../../assets/instagram/gambar9.jpg";
+import Testimonial from "../testimonial/Testimonial";
 
 const Instagram = () => {
   return (
     <Fragment>
       <div className="container" style={{ marginTop: "100px" }}>
         <div className="row">
-          <div className="col-md-6"></div>
+          <div className="col-md-6">
+            <div className="row">
+              <div className="col-12 text-center mb-3">
+                <h3
+                  style={{ textShadow: "3px 3px 4px rgba(172,172,172,0.99)" }}
+                >
+                  Testimonial
+                </h3>
+              </div>
+            </div>
+            <div className="row justify-content-center text-center align-items-center">
+              <div className="col-md-12 card-testimonial">
+                <Testimonial />
+              </div>
+            </div>
+          </div>
           <div className="col-md-6">
             <div className="row">
               <div className="col-12 text-center mb-3">

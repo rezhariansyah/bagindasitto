@@ -5,7 +5,6 @@ class SchrollUp extends Component {
   render() {
     return (
       <BackToTop
-        showOnScrollUp
         showAt={100}
         speed={1500}
         easing="easeInOutQuint"
