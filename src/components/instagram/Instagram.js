@@ -23,7 +23,7 @@ const Instagram = () => {
                 <h3
                   style={{ textShadow: "3px 3px 4px rgba(172,172,172,0.99)" }}
                 >
-                  Testimonial
+                  Testimonials
                 </h3>
               </div>
             </div>
