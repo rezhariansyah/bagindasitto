@@ -21,6 +21,7 @@ import lopi3 from "../../assets/phinisi/lopi/lopi3.JPG";
 import lopi4 from "../../assets/phinisi/lopi/lopi4.JPG";
 import logo from "../../assets/phinisi/PNG5.png";
 import Footer from "../../components/footer/Footer";
+import SchrollUp from "../../components/backToTop/BackToTop";
 class Phinisi extends Component {
   render() {
     return (
@@ -34,6 +35,7 @@ class Phinisi extends Component {
             </div>
           </div>
         </div>
+        <SchrollUp />
         <div className="mr-3 ml-3">
           <div className="container">
             <div className="row mb-3 mt-5">

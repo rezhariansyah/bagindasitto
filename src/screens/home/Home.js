@@ -5,6 +5,7 @@ import Banner1 from "../../components/banner1/Banner1";
 import Instagram from "../../components/instagram/Instagram";
 import Footer from "../../components/footer/Footer";
 import OurClients from "../../components/ourClients/OurClients";
+import SchrollUp from "../../components/backToTop/BackToTop";
 
 class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ class Home extends Component {
       <Fragment>
         <Banner />
         <Categories />
+        <SchrollUp />
         <Banner1 />
         <OurClients />
         <Instagram />
