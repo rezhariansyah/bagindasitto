@@ -35,7 +35,7 @@ const Testimonial = () => {
       keyBoardControl={true}
       showDots={true}
       autoPlay={true}
-      autoPlaySpeed={5000}
+      autoPlaySpeed={10000}
       infinite={true}
       removeArrowOnDeviceType={["tablet", "mobile"]}
     >
