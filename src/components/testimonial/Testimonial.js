@@ -196,7 +196,7 @@ const Testimonial = () => {
             joged walaupun dia tim coca cola dingin dan no rokok (gw juga heran,
             kok bisaaa gak tergoda wkwk), Anyyway I can say he is one of the
             nicest dan honest guy i ever met during the trip. Gak bawel, jago
-            foto (ciehh) dan bisa diajak trip kece, jago banget lu bikin
+            foto (ciehh) dan bisa diajak trip kere, jago banget lu bikin
             perencanaan budget. See u next trip cong !
           </p>
         </div>

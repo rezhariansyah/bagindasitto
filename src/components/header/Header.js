@@ -39,13 +39,6 @@ const Example = (props) => {
                   </NavLink>
                 </Link>
               </NavItem>
-              {/* <NavItem>
-                <Link to="/phinisi">
-                  <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
-                    PHINISI
-                  </NavLink>
-                </Link>
-              </NavItem> */}
               <Collapse isOpen={isOpen} navbar>
                 <Nav className="mr-auto" navbar>
                   <UncontrolledDropdown nav inNavbar>
