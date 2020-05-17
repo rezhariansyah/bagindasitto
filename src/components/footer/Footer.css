@@ -1,10 +1,8 @@
-.wrapper {
-  color: white;
-  background-color: #343a40;
-  text-align: center;
-}
 .align {
   text-align: center;
+}
+.footer-web {
+  background-color: #343a40 !important;
 }
 .footer-mobile {
   display: none;
