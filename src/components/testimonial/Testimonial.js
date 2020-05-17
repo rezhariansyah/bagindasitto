@@ -45,31 +45,6 @@ const Testimonial = () => {
       >
         <img
           className="card-img-top mx-auto rounded-circle img-testi"
-          src={img1}
-          alt="img card"
-        />
-        <div className="card-body mb-3">
-          <p className="name">
-            Jeaniecia Halim - Head Designer Et Cetera & The Executive Ladies
-          </p>
-          <p className="card-text description" style={{ color: "#7F7F7F" }}>
-            Kami bekerjasama dengan sitto untuk photoshoot campaign Et - Cetera
-            di Sumba. Kami benar&quot; focus untuk proses Photoshoot karena
-            sitto telah menyiapkan spot&quot; photo yang tepat dan all
-            accommodation selama campaign dengan sangat baik. Jadi hasil
-            photoshoot Et-Cetera makin sempurna. Pokoknya rekomen banget sitto
-            jadi travel advisor kalian untuk trip&quot; di Indonesia. Gw dan
-            team puas banget. Keep up the good work sitto !! Thanks for all the
-            hard work.
-          </p>
-        </div>
-      </div>
-      <div
-        className="card"
-        style={{ width: "100%", border: "none", boxShadow: "none" }}
-      >
-        <img
-          className="card-img-top mx-auto rounded-circle img-testi"
           src={img2}
           alt="img card"
         />
@@ -87,26 +62,6 @@ const Testimonial = () => {
             never break that one. I really hope we can work together again in
             the future, Cheers for this awesome time in the project, see u on
             top! Thank&#39;s sitto
-          </p>
-        </div>
-      </div>
-      <div
-        className="card"
-        style={{ width: "100%", border: "none", boxShadow: "none" }}
-      >
-        <img
-          className="card-img-top mx-auto rounded-circle img-testi"
-          src={img3}
-          alt="img card"
-        />
-        <div className="card-body mb-3">
-          <p className="name">Rachmat Julio – Founder Anjani Trip</p>
-          <p className="card-text description" style={{ color: "#7F7F7F" }}>
-            Gw kenal sitto udah cukup lama dan waktu pas banget gw mau buat
-            kapal lagi, gw minta tolong sitto untuk bantu design kapal gw, yang
-            gw paling suka dari sitto diajak diskusi super enak, ide&quot;nya
-            menarik, talk less do more dan yang terpenting harganya super
-            terjangkau wkwk
           </p>
         </div>
       </div>
@@ -142,6 +97,69 @@ const Testimonial = () => {
       >
         <img
           className="card-img-top mx-auto rounded-circle img-testi"
+          src={img8}
+          alt="img card"
+        />
+        <div className="card-body mb-3">
+          <p className="name">
+            Asoka Remadja – Travel Blogger &amp; Influencer
+          </p>
+          <p className="card-text description" style={{ color: "#7F7F7F" }}>
+            Adventure and Fearless
+          </p>
+        </div>
+      </div>
+      <div
+        className="card"
+        style={{ width: "100%", border: "none", boxShadow: "none" }}
+      >
+        <img
+          className="card-img-top mx-auto rounded-circle img-testi"
+          src={img1}
+          alt="img card"
+        />
+        <div className="card-body mb-3">
+          <p className="name">
+            Jeaniecia Halim - Head Designer Et Cetera & The Executive Ladies
+          </p>
+          <p className="card-text description" style={{ color: "#7F7F7F" }}>
+            Kami bekerjasama dengan sitto untuk photoshoot campaign Et - Cetera
+            di Sumba. Kami benar&quot; focus untuk proses Photoshoot karena
+            sitto telah menyiapkan spot&quot; photo yang tepat dan all
+            accommodation selama campaign dengan sangat baik. Jadi hasil
+            photoshoot Et-Cetera makin sempurna. Pokoknya rekomen banget sitto
+            jadi travel advisor kalian untuk trip&quot; di Indonesia. Gw dan
+            team puas banget. Keep up the good work sitto !! Thanks for all the
+            hard work.
+          </p>
+        </div>
+      </div>
+      <div
+        className="card"
+        style={{ width: "100%", border: "none", boxShadow: "none" }}
+      >
+        <img
+          className="card-img-top mx-auto rounded-circle img-testi"
+          src={img3}
+          alt="img card"
+        />
+        <div className="card-body mb-3">
+          <p className="name">Rachmat Julio – Founder Anjani Trip</p>
+          <p className="card-text description" style={{ color: "#7F7F7F" }}>
+            Gw kenal sitto udah cukup lama dan waktu pas banget gw mau buat
+            kapal lagi, gw minta tolong sitto untuk bantu design kapal gw, yang
+            gw paling suka dari sitto diajak diskusi super enak, ide&quot;nya
+            menarik, talk less do more dan yang terpenting harganya super
+            terjangkau wkwk
+          </p>
+        </div>
+      </div>
+      <div
+        className="card"
+        style={{ width: "100%", border: "none", boxShadow: "none" }}
+      >
+        <img
+          className="card-img-top mx-auto rounded-circle img-testi"
           src={img5}
           alt="img card"
         />
@@ -155,27 +173,6 @@ const Testimonial = () => {
             dipresentasikan sesuai dengan realisasi. dan tentunya dapat
             membedakan saat menjadi teman yang asik, dan Business Partner hehe.
             Thankss sitto, sukses terus backpacker sopan.
-          </p>
-        </div>
-      </div>
-      <div
-        className="card"
-        style={{ width: "100%", border: "none", boxShadow: "none" }}
-      >
-        <img
-          className="card-img-top mx-auto rounded-circle img-testi"
-          src={img6}
-          alt="img card"
-        />
-        <div className="card-body mb-3">
-          <p className="name">
-            Marieandjakessnow - Travel Blogger &amp; Influencer
-          </p>
-          <p className="card-text description" style={{ color: "#7F7F7F" }}>
-            We met sitto while sailing in Komodo National Park. Sitto became our
-            travelmate during the trip. He really knows the right place for
-            photoshoot, droneshoot, and for underwater viewing. We will come
-            back again sitto. See u !!
           </p>
         </div>
       </div>
@@ -207,15 +204,18 @@ const Testimonial = () => {
       >
         <img
           className="card-img-top mx-auto rounded-circle img-testi"
-          src={img8}
+          src={img6}
           alt="img card"
         />
         <div className="card-body mb-3">
           <p className="name">
-            Asoka Remadja – Travel Blogger &amp; Influencer
+            Marieandjakessnow - Travel Blogger &amp; Influencer
           </p>
           <p className="card-text description" style={{ color: "#7F7F7F" }}>
-            Adventure and Fearless
+            We met sitto while sailing in Komodo National Park. Sitto became our
+            travelmate during the trip. He really knows the right place for
+            photoshoot, droneshoot, and for underwater viewing. We will come
+            back again sitto. See u !!
           </p>
         </div>
       </div>

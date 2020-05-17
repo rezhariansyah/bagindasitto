@@ -14,8 +14,8 @@ class Home extends Component {
         <Banner />
         <Categories />
         <SchrollUp />
-        <Banner1 />
         <OurClients />
+        <Banner1 />
         <Instagram />
         <Footer />
       </Fragment>

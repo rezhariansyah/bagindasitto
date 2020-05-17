@@ -10,7 +10,7 @@ const Categories = () => {
   return (
     <div className="container" style={{marginTop:"100px"}}>
       <div className="row justify-content-center mb-4">
-        <h2 style={{textShadow:"3px 3px 4px rgba(172,172,172,0.99)"}}>CATEGORIES</h2>
+        <h2 style={{textShadow:"3px 3px 4px rgba(172,172,172,0.99)"}}>Categories</h2>
       </div>
       <div className="row justify-content-sm-center ">
         <div className="col-md-3 col-sm-6 mt-3">

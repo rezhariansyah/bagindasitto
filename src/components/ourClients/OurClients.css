@@ -1,21 +1,21 @@
 .logo-client {
-  width: 150px;
+  width: 100px;
 }
 
 @media only screen and (max-width: 1024px) {
   .logo-client {
-    width: 130px;
+    width: 80px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .logo-client {
-    width: 130px;
+    width: 70px;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .logo-client {
-    width: 100px;
+    width: 50px;
   }
 }
