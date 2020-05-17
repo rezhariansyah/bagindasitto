@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import about from "../../assets/banners/compress/about-min.jpg";
+import about from "../../assets/categories/about.JPG";
 import travel from "../../assets/banners/compress/travel.png";
 import phinisi from "../../assets/categories/maps-min.png";
 import tips from "../../assets/banners/compress/tips-min.jpg";
