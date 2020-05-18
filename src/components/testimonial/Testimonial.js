@@ -8,6 +8,7 @@ import img5 from "../../assets/testimonial/IMG_7815.PNG";
 import img6 from "../../assets/testimonial/IMG_7818.PNG";
 import img7 from "../../assets/testimonial/IMG_7816.PNG";
 import img8 from "../../assets/testimonial/IMG_7814.jpg";
+import img9 from "../../assets/testimonial/aco.jpg";
 import "./Testimonial.css";
 
 const responsive = {
@@ -131,6 +132,27 @@ const Testimonial = () => {
             jadi travel advisor kalian untuk trip&quot; di Indonesia. Gw dan
             team puas banget. Keep up the good work sitto !! Thanks for all the
             hard work.
+          </p>
+        </div>
+      </div>
+      <div
+        className="card"
+        style={{ width: "100%", border: "none", boxShadow: "none" }}
+      >
+        <img
+          className="card-img-top mx-auto rounded-circle img-testi"
+          src={img9}
+          alt="img card"
+        />
+        <div className="card-body mb-3">
+          <p className="name">Aco Tenri - Video Director "Novilda.ID"</p>
+          <p className="card-text description" style={{ color: "#7F7F7F" }}>
+            Pertemuan kami (Team Kelana Karin) dengan sitto bermula saat
+            produksi kami di labuan Bajo dan Sumba, panduan dari Sitto akhirnya
+            sangat mempermudah dan banyak membantu kami sepanjang perjalanan.
+            Bahkan kerjasama kita terus berlanjut di perjalanan kita selanjutnya
+            di Sulawesi Selatan. Saat ini kami pun masih terus keep in touch
+            dengan Sitto untuk project-project selanjutnya.
           </p>
         </div>
       </div>
