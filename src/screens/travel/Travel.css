@@ -1,0 +1,19 @@
+.mobileTravel {
+  height: 700px;
+  padding: 0 20px;
+  background-size: cover;
+  background-image: url("../../assets/banners/IMG_2215-min.jpg");
+  background-position: center center;
+  margin-top: -100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileTravel {
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: -250px;
+  }
+}

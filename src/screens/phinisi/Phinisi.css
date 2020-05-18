@@ -33,10 +33,6 @@
   cursor: pointer;
 }
 
-.slider-image:hover {
-  opacity: 0.6;
-}
-
 @media only screen and (max-width: 1024px) {
   .slider-image {
     width: 270px;

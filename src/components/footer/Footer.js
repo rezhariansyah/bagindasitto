@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import {
   NavLink,
   UncontrolledDropdown,
@@ -9,11 +9,14 @@ import {
 } from "reactstrap";
 import "./Footer.css";
 
-var refreshPage = () => {
-  window.scrollTo(0, 0);
-};
-
 const Footer = () => {
+  var history = useHistory();
+
+  var refreshPage = () => {
+    history.push("/");
+    window.scrollTo(0, 0);
+  };
+  
   return (
     <Fragment>
       <div className="footer-web">
