@@ -13,6 +13,12 @@ import Contact from "./screens/contact/Contact";
 import Panrita from "./screens/panrita/Panrita";
 import Tamparang from "./screens/tamparang/Tamparang";
 import Lopi from "./screens/lopi/Lopi";
+import Bali from "./screens/bali/Bali";
+import Sulawesi from "./screens/sulawesi/Sulawesi";
+import RajaAmpat from "./screens/rajaampat/RajaAmpat";
+import Sumba from "./screens/sumba/Sumba";
+import Flores from "./screens/flores/Flores";
+import komodo from "./screens/komodo/komodo";
 
 function App() {
   return (
@@ -36,6 +42,12 @@ function App() {
         <Route path="/panrita" component={Panrita} exact />
         <Route path="/tamparang" component={Tamparang} exact />
         <Route path="/lopi" component={Lopi} exact />
+        <Route path="/bali" component={Bali} exact />
+        <Route path="/sulawesi" component={Sulawesi} exact />
+        <Route path="/rajaampat" component={RajaAmpat} exact />
+        <Route path="/sumba" component={Sumba} exact />
+        <Route path="/flores" component={Flores} exact />
+        <Route path="/komodo" component={komodo} exact />
       </BrowserRouter>
     </div>
   );

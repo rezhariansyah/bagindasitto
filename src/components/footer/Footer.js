@@ -103,7 +103,7 @@ const Footer = () => {
                 <li className="nav-item">
                   <Link to="/about" style={{ textDecoration: "none" }}>
                     <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
-                      ABOUT ME
+                      ABOUT
                     </NavLink>
                   </Link>
                 </li>
@@ -122,9 +122,6 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
-              <h6 className="email mt-2" style={{ color: "#7B8488" }}>
-                baginda13srg@gmail.com
-              </h6>
             </div>
           </div>
         </nav>

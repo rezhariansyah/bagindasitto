@@ -37,3 +37,33 @@
   from = "/lopi"
   to = "/"
   status = 200
+
+[[redirects]]
+  from = "/bali"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/sulawesi"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/rajaampat"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/sumba"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/flores"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/komodo"
+  to = "/"
+  status = 200

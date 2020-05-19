@@ -53,19 +53,52 @@ const Example = (props) => {
                       right
                       style={{ position: "absolute", right: "50%" }}
                     >
-                      <DropdownItem tag={Link} to="/panrita">Panrita</DropdownItem>
-                      <DropdownItem tag={Link} to="/tamparang">Tamparang</DropdownItem>
-                      <DropdownItem tag={Link} to="/lopi">Lopi</DropdownItem>
+                      <DropdownItem tag={Link} to="/panrita">
+                        Panrita
+                      </DropdownItem>
+                      <DropdownItem tag={Link} to="/tamparang">
+                        Tamparang
+                      </DropdownItem>
+                      <DropdownItem tag={Link} to="/lopi">
+                        Lopi
+                      </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
               </Collapse>
               <NavItem>
-                <Link to="/travel" style={{ textDecoration: "none" }}>
-                  <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
+                <UncontrolledDropdown nav inNavbar>
+                  <DropdownToggle
+                    nav
+                    caret
+                    style={{ fontSize: "13px", fontWeight: "bolder" }}
+                  >
                     TRAVEL
-                  </NavLink>
-                </Link>
+                  </DropdownToggle>
+                  <DropdownMenu
+                    right
+                    style={{ position: "absolute", right: "50%" }}
+                  >
+                    <DropdownItem tag={Link} to="/bali">
+                      Bali
+                    </DropdownItem>
+                    <DropdownItem tag={Link} to="/sulawesi">
+                      Sulawesi
+                    </DropdownItem>
+                    <DropdownItem tag={Link} to="/rajaampat">
+                      Raja Ampat
+                    </DropdownItem>
+                    <DropdownItem tag={Link} to="/sumba">
+                      Sumba
+                    </DropdownItem>
+                    <DropdownItem tag={Link} to="/flores">
+                      Flores
+                    </DropdownItem>
+                    <DropdownItem tag={Link} to="/komodo">
+                      Komodo
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
               </NavItem>
               <NavItem>
                 <Link to="/about" style={{ textDecoration: "none" }}>
