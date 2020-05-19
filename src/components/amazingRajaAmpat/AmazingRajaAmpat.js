@@ -29,21 +29,22 @@ const AmazingRajaAmpat = () => {
   return (
     <Carousel responsive={responsive}>
       <div>
+        <img className="slider-image" src={rajaampat3} alt="..." />
+      </div>
+      <div>
+        <img className="slider-image" src={rajaampat5} alt="..." />
+      </div>
+      <div>
+        <img className="slider-image" src={rajaampat6} alt="..." />
+      </div>
+      <div>
         <img className="slider-image" src={rajaampat1} alt="..." />
       </div>
       <div>
         <img className="slider-image" src={rajaampat2} alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={rajaampat3} alt="..." />
-      </div>
-      <div>
         <img className="slider-image" src={rajaampat4} alt="..." />
-      </div>
-      <div>
-        <img className="slider-image" src={rajaampat5} alt="..." />
-      </div><div>
-        <img className="slider-image" src={rajaampat6} alt="..." />
       </div>
     </Carousel>
   );

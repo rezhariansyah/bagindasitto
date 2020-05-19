@@ -7,6 +7,31 @@
   margin-top: -100px;
 }
 
+.logo-travel {
+  width: 80px;
+  top: 500px;
+  left: 1170px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo-travel {
+    width: 70px;
+    top: 526px;
+    left: 829px;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-travel {
+    width: 70px;
+    top: 520px;
+    left: 614px;
+    position: absolute;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .mobileTravel {
     height: 700px;
@@ -15,5 +40,29 @@
     background-repeat: no-repeat;
     object-fit: cover;
     margin-top: -250px;
+  }
+  .logo-travel {
+    width: 70px;
+    left: 309px;
+    top: 374px;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .logo-travel {
+    width: 70px;
+    left: 281px;
+    top: 397px;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .logo-travel {
+    width: 60px;
+    left: 235px;
+    top: 397px;
+    position: absolute;
   }
 }

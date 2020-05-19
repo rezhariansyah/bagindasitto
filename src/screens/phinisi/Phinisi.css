@@ -15,6 +15,13 @@
   position: absolute;
 }
 
+.title-logo {
+  width: 200px;
+  top: 650px;
+  left: 970px;
+  position: absolute;
+}
+
 .slider-multi {
   text-align: center;
   font-family: playfair display, serif;
@@ -40,6 +47,13 @@
     object-fit: cover;
   }
 
+  .title-logo {
+    width: 200px;
+    top: 594px;
+    left: 762px;
+    position: absolute;
+  }
+
   .logo-riara {
     width: 140px;
     top: 460px;
@@ -53,6 +67,13 @@
     width: 140px;
     top: 460px;
     left: 576px;
+    position: absolute;
+  }
+
+  .title-logo {
+    width: 200px;
+    top: 540px;
+    left: 585px;
     position: absolute;
   }
 
@@ -80,6 +101,10 @@
     width: 100px;
     height: 187px;
     object-fit: cover;
+  }
+
+  .title-logo {
+    display: none;
   }
 
   .logo-riara {

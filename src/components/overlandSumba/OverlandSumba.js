@@ -32,13 +32,13 @@ const OverlandSumba = () => {
         <img className="slider-image" src={sumba1} alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={sumba2} alt="..." />
+        <img className="slider-image" src={sumba4} alt="..." />
       </div>
       <div>
         <img className="slider-image" src={sumba3} alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={sumba4} alt="..." />
+        <img className="slider-image" src={sumba2} alt="..." />
       </div>
       <div>
         <img className="slider-image" src={sumba5} alt="..." />

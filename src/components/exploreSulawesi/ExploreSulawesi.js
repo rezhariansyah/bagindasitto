@@ -5,6 +5,7 @@ import sulawesi2 from "../../assets/travel/sulawesi2.jpg";
 import sulawesi3 from "../../assets/travel/sulawesi3.jpg";
 import sulawesi4 from "../../assets/travel/sulawesi4.jpg";
 import sulawesi5 from "../../assets/travel/sulawesi5.jpeg";
+import sulawesi6 from "../../assets/travel/sampul mobile.jpg";
 
 const responsive = {
   desktop: {
@@ -32,6 +33,9 @@ const ExploreSulawesi = () => {
       </div>
       <div>
         <img className="slider-image" src={sulawesi2} alt="..." />
+      </div>
+      <div>
+        <img className="slider-image" src={sulawesi6} alt="..." />
       </div>
       <div>
         <img className="slider-image" src={sulawesi3} alt="..." />

@@ -22,6 +22,7 @@ import lopi4 from "../../assets/phinisi/lopi/lopi4.JPG";
 import logo from "../../assets/phinisi/PNG5.png";
 import Footer from "../../components/footer/Footer";
 import SchrollUp from "../../components/backToTop/BackToTop";
+import titlelogo from "../../assets/phinisi/Ship Consultant.png";
 class Phinisi extends Component {
   render() {
     return (
@@ -31,6 +32,7 @@ class Phinisi extends Component {
             <div className="row align-items-end">
               <div className="col">
                 <img className="logo-riara" src={logo} alt="..." />
+                <img src={titlelogo} className="title-logo" alt="..."/>
               </div>
             </div>
           </div>
@@ -40,9 +42,10 @@ class Phinisi extends Component {
           <div className="container">
             <div className="row mb-3 mt-5">
               <div className="col-md-12">
-                <h3 style={{ display: "inline" }} className="mr-3 title-slider">
+                <h5 style={{ display: "inline" }} className="mr-3 title-slider">
                   "PANRITA"
-                </h3>
+                </h5>
+                <p style={{display:"inline"}}><i style={{fontSize:"smaller"}}>Our Experienced Handyman</i></p>
               </div>
             </div>
           </div>
@@ -71,9 +74,10 @@ class Phinisi extends Component {
           <div className="container">
             <div className="row mb-3 mt-5">
               <div className="col-md-12">
-                <h3 style={{ display: "inline" }} className="mr-3 title-slider">
+                <h5 style={{ display: "inline" }} className="mr-3 title-slider">
                   "TAMPARANG"
-                </h3>
+                </h5>
+                <p style={{display:"inline"}}><i style={{fontSize:"smaller"}}>A Blend of Traditional and Modern methods in our shipyard</i></p>
               </div>
             </div>
           </div>
@@ -102,9 +106,10 @@ class Phinisi extends Component {
           <div className="container">
             <div className="row mb-3 mt-5">
               <div className="col-md-12">
-                <h3 style={{ display: "inline" }} className="mr-3 title-slider">
+                <h5 style={{ display: "inline" }} className="mr-3 title-slider">
                   "LOPI"
-                </h3>
+                </h5>
+                <p style={{display:"inline"}}><i style={{fontSize:"smaller"}}>That’s mean Boat. Boat that we have designed and produced.</i></p>
               </div>
             </div>
           </div>
