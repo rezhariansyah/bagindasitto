@@ -7,7 +7,6 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./screens/home/Home";
 import Phinisi from "./screens/phinisi/Phinisi";
 import About from "./screens/about/About";
-import Tips from "./screens/tips/Tips";
 import Travel from "./screens/travel/Travel";
 import Contact from "./screens/contact/Contact";
 import Panrita from "./screens/panrita/Panrita";
@@ -19,6 +18,7 @@ import RajaAmpat from "./screens/rajaampat/RajaAmpat";
 import Sumba from "./screens/sumba/Sumba";
 import Flores from "./screens/flores/Flores";
 import komodo from "./screens/komodo/komodo";
+import collaboration from "./screens/Collaboration/Collaboration";
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
         <Route path="/" component={Home} exact />
         <Route path="/phinisi" component={Phinisi} exact />
         <Route path="/about" component={About} exact />
-        <Route path="/tips" component={Tips} exact />
+        <Route path="/collaboration" component={collaboration} exact />
         <Route path="/travel" component={Travel} exact />
         <Route path="/contact" component={Contact} exact />
         <Route path="/panrita" component={Panrita} exact />

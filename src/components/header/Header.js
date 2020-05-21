@@ -108,7 +108,7 @@ const Example = (props) => {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to="/tips" style={{ textDecoration: "none" }}>
+                <Link to="/collaboration" style={{ textDecoration: "none" }}>
                   <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
                     SUSTAINABLE
                   </NavLink>

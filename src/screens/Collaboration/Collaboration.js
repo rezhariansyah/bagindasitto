@@ -2,10 +2,10 @@ import React, { Component, Fragment } from "react";
 import brandPromotion from "../../assets/collaboration/1.jpg";
 import campaignPhotoshot from "../../assets/collaboration/2.JPG";
 import youtubeContent from "../../assets/collaboration/3.JPG";
-import "./Tips.css";
+import "./Collaboration.css";
 import Footer from "../../components/footer/Footer";
 
-class Tips extends Component {
+class Collaboration extends Component {
   render() {
     return (
       <Fragment>
@@ -18,7 +18,9 @@ class Tips extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <h2 style={{ color: "white" }}>Brand Promotion</h2>
+                    <h2 style={{ color: "white", cursor: "pointer" }}>
+                      Brand Promotion
+                    </h2>
                   </ul>
                 </div>
               </div>
@@ -30,7 +32,9 @@ class Tips extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <h2 style={{ color: "white" }}>Campaign Photoshot</h2>
+                    <h2 style={{ color: "white", cursor: "pointer" }}>
+                      Campaign Photoshot
+                    </h2>
                   </ul>
                 </div>
               </div>
@@ -42,7 +46,9 @@ class Tips extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <h2 style={{ color: "white" }}>Youtube Content</h2>
+                    <h2 style={{ color: "white", cursor: "pointer" }}>
+                      Youtube Content
+                    </h2>
                   </ul>
                 </div>
               </div>
@@ -55,4 +61,4 @@ class Tips extends Component {
   }
 }
 
-export default Tips;
+export default Collaboration;

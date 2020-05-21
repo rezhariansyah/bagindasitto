@@ -14,7 +14,7 @@
   status = 200
 
 [[redirects]]
-  from = "/tips"
+  from = "/collaboration"
   to = "/"
   status = 200
 

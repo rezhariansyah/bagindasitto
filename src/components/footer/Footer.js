@@ -108,7 +108,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/tips" style={{ textDecoration: "none" }}>
+                  <Link to="/collaboration" style={{ textDecoration: "none" }}>
                     <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
                       SUSTAINABLE
                     </NavLink>

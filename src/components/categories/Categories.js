@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import about from "../../assets/categories/about.JPG";
 import travel from "../../assets/banners/compress/travel.png";
 import phinisi from "../../assets/categories/maps-min.png";
-import tips from "../../assets/banners/compress/tips-min.jpg";
+import collaboration from "../../assets/banners/compress/tips-min.jpg";
 import "./Categories.css";
 
 const Categories = () => {
@@ -39,9 +39,9 @@ const Categories = () => {
         </div>
         <div className="col-md-3 col-sm-6 mt-3">
           <div className="card">
-            <img src={tips} className="card-img-top" alt="..." />
+            <img src={collaboration} className="card-img-top" alt="..." />
             <div className="title">
-              <Link to='/tips'><input type="button" value="COLLABORATION" className="btn btn-outline-light" /></Link>
+              <Link to='/collaboration'><input type="button" value="COLLABORATION" className="btn btn-outline-light" /></Link>
             </div>
           </div>
         </div>
