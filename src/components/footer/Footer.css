@@ -15,5 +15,6 @@
 
   .footer-mobile {
     display: block;
+    bottom: 0;
   }
 }
