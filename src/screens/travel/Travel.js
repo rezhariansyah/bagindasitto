@@ -16,7 +16,7 @@ class Travel extends Component {
       <Fragment>
         <div className="jumbotron jumbotron-fluid mobileTravel">
           <div className="container">
-          <img className="logo-travel" src={logotravel} alt="..." />
+            <img className="logo-travel" src={logotravel} alt="..." />
           </div>
         </div>
         <div className="mr-3 ml-3">
@@ -65,7 +65,7 @@ class Travel extends Component {
                 <h6 style={{ display: "inline" }} className="mr-3 title-slider">
                   "KOMODO NATIONAL PARK"
                 </h6>
-                <p style={{display:"inline"}}><i style={{fontSize:"smaller"}}>Time to Adventures</i></p>
+                <p style={{display:"inline"}}><i style={{fontSize:"smaller"}}>Let’s Sailing</i></p>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ class Travel extends Component {
                 <h6 style={{ display: "inline" }} className="mr-3 title-slider">
                   "OVERLAND SUMBA"
                 </h6>
-                <p style={{display:"inline"}}><i style={{fontSize:"smaller"}}>Time to Adventures</i></p>
+                <p style={{display:"inline"}}><i style={{fontSize:"smaller"}}>Unforgettable Journey</i></p>
               </div>
             </div>
           </div>

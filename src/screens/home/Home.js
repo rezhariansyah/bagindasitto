@@ -6,6 +6,7 @@ import Instagram from "../../components/instagram/Instagram";
 import Footer from "../../components/footer/Footer";
 import OurClients from "../../components/ourClients/OurClients";
 import SchrollUp from "../../components/backToTop/BackToTop";
+import YoutubeContent from "../youtubeContent/YoutubeContent";
 
 class Home extends Component {
   render() {
@@ -18,6 +19,7 @@ class Home extends Component {
         <Banner1 />
         <Instagram />
         <Footer />
+        {/* <YoutubeContent videoId="HnlHcn8wxb0"/> */}
       </Fragment>
     );
   }
