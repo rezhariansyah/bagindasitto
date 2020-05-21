@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import brandPromotion from "../../assets/collaboration/1.jpg";
 import campaignPhotoshot from "../../assets/collaboration/2.JPG";
 import youtubeContent from "../../assets/collaboration/3.JPG";
@@ -15,7 +14,7 @@ class Tips extends Component {
               <div className="profile-img">
                 <img
                   src={brandPromotion}
-                  alt="Team Image"
+                  alt="..."
                 />
               </div>
               <div className="profile-content">
@@ -30,7 +29,7 @@ class Tips extends Component {
               <div className="profile-img">
                 <img
                   src={campaignPhotoshot}
-                  alt="Team Image"
+                  alt="..."
                 />
               </div>
               <div className="profile-content">
@@ -45,7 +44,7 @@ class Tips extends Component {
               <div className="profile-img">
                 <img
                   src={youtubeContent}
-                  alt="Team Image"
+                  alt="..."
                 />
               </div>
               <div className="profile-content">
