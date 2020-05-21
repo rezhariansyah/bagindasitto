@@ -19,9 +19,12 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <h2 className="title-card-collab">
-                      Brand Promotion
-                    </h2>
+                  <button
+                      type="button"
+                      className="btn btn-outline-light btn-lg"
+                    >
+                      Brand <br /> Promotion
+                    </button>
                   </ul>
                 </div>
               </div>
@@ -33,9 +36,12 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <h2 className="title-card-collab">
-                      Campaign Photoshot
-                    </h2>
+                    <button
+                      type="button"
+                      className="btn btn-outline-light btn-lg"
+                    >
+                      Campaign <br /> Photoshot
+                    </button>
                   </ul>
                 </div>
               </div>
@@ -47,8 +53,16 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <Link to="/youtube-content" style={{textDecoration:"none"}}>
-                      <h2 className="title-card-collab">Youtube Content</h2>
+                    <Link
+                      to="/youtube-content"
+                      style={{ textDecoration: "none", cursor: "pointer" }}
+                    >
+                      <button
+                        type="button"
+                        className="btn btn-outline-light btn-lg"
+                      >
+                        Youtube <br /> Content
+                      </button>
                     </Link>
                   </ul>
                 </div>
