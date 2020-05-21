@@ -20,10 +20,7 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <button
-                      type="button"
-                      className="btn btn-outline-light"
-                    >
+                    <button type="button" className="btn btn-outline-light">
                       Brand Promotion
                     </button>
                   </ul>
@@ -37,10 +34,7 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <button
-                      type="button"
-                      className="btn btn-outline-light"
-                    >
+                    <button type="button" className="btn btn-outline-light">
                       Campaign Photoshot
                     </button>
                   </ul>
@@ -54,11 +48,9 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <Link to="/youtube-content">
-                      <Button outline color="light">
-                        Youtube Content
-                      </Button>
-                    </Link>
+                    <Button outline color="light">
+                      <Link to="/youtube-content" style={{color:"white"}}>Youtube Content</Link>
+                    </Button>
                   </ul>
                 </div>
               </div>
