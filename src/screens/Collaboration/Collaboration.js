@@ -5,6 +5,7 @@ import youtubeContent from "../../assets/collaboration/3.JPG";
 import "./Collaboration.css";
 import Footer from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
+import { Button } from 'reactstrap';
 
 class Collaboration extends Component {
   render() {
@@ -55,14 +56,8 @@ class Collaboration extends Component {
                   <ul className="social-link">
                     <Link
                       to="/youtube-content"
-                      style={{ textDecoration: "none", cursor: "pointer" }}
                     >
-                      <button
-                        type="button"
-                        className="btn btn-outline-light btn-lg"
-                      >
-                        Youtube <br /> Content
-                      </button>
+                      <Button outline color="light">Youtube <br/> Content</Button>
                     </Link>
                   </ul>
                 </div>
