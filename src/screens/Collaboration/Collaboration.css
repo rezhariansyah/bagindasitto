@@ -60,6 +60,11 @@
   }
 }
 
+.title-card-collab {
+  color: white;
+  cursor: pointer !important;
+}
+
 .web-collab {
   margin-top: 90px;
 }

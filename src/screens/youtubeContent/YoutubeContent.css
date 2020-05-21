@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px) {
+  .web-youtube {
+    margin-top: 20px !important;
+  }
+  .embed-responsive {
+      height: 250px !important;
+  }
+}
+
+.author {
+  font-size: small;
+}
+
+.web-youtube {
+  margin-top: 50px;
+}
+
+.description-video {
+  text-align: justify;
+}
+
+.embed-responsive {
+  width: 400px !important;
+  height: 290px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 10px;
+  -webkit-box-shadow: 11px 11px 13px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 13px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 13px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+  margin-right: 20px;
+}

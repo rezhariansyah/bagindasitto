@@ -4,6 +4,7 @@ import campaignPhotoshot from "../../assets/collaboration/2.JPG";
 import youtubeContent from "../../assets/collaboration/3.JPG";
 import "./Collaboration.css";
 import Footer from "../../components/footer/Footer";
+import { Link } from "react-router-dom";
 
 class Collaboration extends Component {
   render() {
@@ -18,7 +19,7 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <h2 style={{ color: "white", cursor: "pointer" }}>
+                    <h2 className="title-card-collab">
                       Brand Promotion
                     </h2>
                   </ul>
@@ -32,7 +33,7 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <h2 style={{ color: "white", cursor: "pointer" }}>
+                    <h2 className="title-card-collab">
                       Campaign Photoshot
                     </h2>
                   </ul>
@@ -46,9 +47,9 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <h2 style={{ color: "white", cursor: "pointer" }}>
-                      Youtube Content
-                    </h2>
+                    <Link to="/youtube-content" style={{textDecoration:"none"}}>
+                      <h2 className="title-card-collab">Youtube Content</h2>
+                    </Link>
                   </ul>
                 </div>
               </div>

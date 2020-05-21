@@ -67,3 +67,8 @@
   from = "/komodo"
   to = "/"
   status = 200
+
+[[redirects]]
+  from = "/youtube-content"
+  to = "/"
+  status = 200

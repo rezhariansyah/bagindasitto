@@ -19,6 +19,7 @@ import Sumba from "./screens/sumba/Sumba";
 import Flores from "./screens/flores/Flores";
 import komodo from "./screens/komodo/komodo";
 import collaboration from "./screens/Collaboration/Collaboration";
+import YoutubeContent from "./screens/youtubeContent/YoutubeContent";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path="/sumba" component={Sumba} exact />
         <Route path="/flores" component={Flores} exact />
         <Route path="/komodo" component={komodo} exact />
+        <Route path="/youtube-content" component={YoutubeContent} exact />
       </BrowserRouter>
     </div>
   );
