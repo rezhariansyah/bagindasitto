@@ -5,7 +5,6 @@ import youtubeContent from "../../assets/collaboration/3.JPG";
 import "./Collaboration.css";
 import Footer from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
-import { Button } from "reactstrap";
 
 class Collaboration extends Component {
   render() {
@@ -48,8 +47,12 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <Link to="/youtube-content" style={{marginBottom:"20px"}}>
-                      <input type="button" className="btn btn-outline-light" value="Youtube Content"/>
+                    <Link to="/youtube-content">
+                      <input
+                        type="button"
+                        className="btn btn-outline-light"
+                        value="Youtube Content"
+                      />
                     </Link>
                   </ul>
                 </div>

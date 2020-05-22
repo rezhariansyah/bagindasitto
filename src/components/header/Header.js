@@ -41,7 +41,7 @@ const Example = (props) => {
               </NavItem>
               <Collapse isOpen={isOpen} navbar>
                 <Nav className="mr-auto" navbar>
-                  <UncontrolledDropdown nav inNavbar>
+                  {/* <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle
                       nav
                       caret
@@ -63,11 +63,20 @@ const Example = (props) => {
                         Lopi
                       </DropdownItem>
                     </DropdownMenu>
-                  </UncontrolledDropdown>
+                  </UncontrolledDropdown> */}
+                  <NavItem>
+                    <Link to="/phinisi" style={{ textDecoration: "none" }}>
+                      <NavLink
+                        style={{ fontSize: "13px", fontWeight: "bolder" }}
+                      >
+                        PHINISI
+                      </NavLink>
+                    </Link>
+                  </NavItem>
                 </Nav>
               </Collapse>
               <NavItem>
-                <UncontrolledDropdown nav inNavbar>
+                {/* <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle
                     nav
                     caret
@@ -98,19 +107,26 @@ const Example = (props) => {
                       Komodo
                     </DropdownItem>
                   </DropdownMenu>
-                </UncontrolledDropdown>
+                </UncontrolledDropdown> */}
+                <NavItem>
+                  <Link to="/travel" style={{ textDecoration: "none" }}>
+                    <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
+                      TRAVEL
+                    </NavLink>
+                  </Link>
+                </NavItem>
               </NavItem>
               <NavItem>
                 <Link to="/about" style={{ textDecoration: "none" }}>
                   <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
-                    ABOUT ME
+                    ABOUT
                   </NavLink>
                 </Link>
               </NavItem>
               <NavItem>
                 <Link to="/collaboration" style={{ textDecoration: "none" }}>
                   <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
-                    SUSTAINABLE
+                    COLLABORATION
                   </NavLink>
                 </Link>
               </NavItem>

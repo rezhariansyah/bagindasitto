@@ -16,7 +16,19 @@ const Footer = () => {
     history.push("/");
     window.scrollTo(0, 0);
   };
-  
+  var travel = () => {
+    history.push("/travel");
+    window.scrollTo(0, 0);
+  };
+  var phinisi = () => {
+    history.push("/phinisi");
+    window.scrollTo(0, 0);
+  };
+  var collaboration = () => {
+    history.push("/collaboration");
+    window.scrollTo(0, 0);
+  };
+
   return (
     <Fragment>
       <div className="footer-web">
@@ -65,7 +77,7 @@ const Footer = () => {
                 </NavLink>
 
                 <li className="nav-item">
-                  <UncontrolledDropdown nav inNavbar>
+                  {/* <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle
                       nav
                       caret
@@ -87,14 +99,29 @@ const Footer = () => {
                         Lopi
                       </DropdownItem>
                     </DropdownMenu>
-                  </UncontrolledDropdown>
+                  </UncontrolledDropdown> */}
+                  <NavLink
+                    onClick={phinisi}
+                    style={{
+                      fontSize: "13px",
+                      fontWeight: "bolder",
+                      cursor: "pointer",
+                    }}
+                  >
+                    PHINISI
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link to="/travel" style={{ textDecoration: "none" }}>
-                    <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
-                      TRAVEL
-                    </NavLink>
-                  </Link>
+                  <NavLink
+                    onClick={travel}
+                    style={{
+                      fontSize: "13px",
+                      fontWeight: "bolder",
+                      cursor: "pointer",
+                    }}
+                  >
+                    TRAVEL
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -108,11 +135,16 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/collaboration" style={{ textDecoration: "none" }}>
-                    <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
-                      SUSTAINABLE
-                    </NavLink>
-                  </Link>
+                  <NavLink
+                    onClick={collaboration}
+                    style={{
+                      fontSize: "13px",
+                      fontWeight: "bolder",
+                      cursor: "pointer",
+                    }}
+                  >
+                    COLLABORATION
+                  </NavLink>
                 </li>
                 <li className="nav-item">
                   <Link to="/contact" style={{ textDecoration: "none" }}>

@@ -5,6 +5,9 @@ import VideoContent2 from "../../components/videoContent/Video2Content";
 import Footer from "../../components/footer/Footer";
 
 class YoutubeContent extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <Fragment>
