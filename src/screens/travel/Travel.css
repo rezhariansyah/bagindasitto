@@ -44,7 +44,7 @@
   .logo-travel {
     width: 70px;
     top: 590px;
-    left: 292px;
+    left: 261px;
     position: relative;
   }
 }
@@ -52,7 +52,7 @@
 @media only screen and (max-width: 375px) {
   .logo-travel {
     width: 70px;
-    left: 225px;
+    left: 251px;
     top: 591px;
     position: relative;
   }

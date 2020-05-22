@@ -40,12 +40,9 @@ class YoutubeContent extends Component {
             </div>
             <div className="col-lg-6 description-video">
               <p>
-                Episode ini aku melakukan pelayaran dengan mengelilingi
-                kepulauan di sekitar Labuan Bajo, mulai dari Pink Beach sampai
-                Pulau Komodo. Sampai akhirnya aku bertemu seseorang yang bernama
-                Ganggu yang sangat mengganggu perjalananku dan membawa kita ke
-                Tana Humba, sebuah tempat yang begitu indah dan menarik
-                budayanya.
+                Kelana Karin kali ini membawa aku ke tanah Sulawesi Selatan,
+                beruntung banget dikelana ini aku bertemu seseorang yang membawa
+                ku jauh ke setiap ujung Sulawesi dari Toraja sampai Bira.
               </p>
               <p>
                 <i className="author">Directed by Aco Tenriyagelli</i>
