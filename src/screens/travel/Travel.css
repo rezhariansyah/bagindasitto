@@ -9,7 +9,7 @@
 
 .logo-travel {
   width: 80px;
-  top: 500px;
+  top: 562px;
   left: 1023px;
   position: relative;
 }
@@ -17,7 +17,7 @@
 @media only screen and (max-width: 1024px) {
   .logo-travel {
     width: 70px;
-    top: 526px;
+    top: 573px;
     left: 846px;
     position: relative;
   }
@@ -26,7 +26,7 @@
 @media only screen and (max-width: 768px) {
   .logo-travel {
     width: 70px;
-    top: 520px;
+    top: 571px;
     left: 614px;
     position: relative;
   }
@@ -43,8 +43,8 @@
   }
   .logo-travel {
     width: 70px;
-    left: 309px;
-    top: 561px;
+    top: 590px;
+    left: 292px;
     position: relative;
   }
 }
@@ -52,8 +52,8 @@
 @media only screen and (max-width: 375px) {
   .logo-travel {
     width: 70px;
-    top: 573px;
-    left: 273px;
+    left: 251px;
+    top: 591px;
     position: relative;
   }
 }
@@ -61,8 +61,8 @@
 @media only screen and (max-width: 320px) {
   .logo-travel {
     width: 60px;
-    top: 573px;
-    left: 223px;
+    left: 211px;
+    top: 601px;
     position: relative;
   }
 }

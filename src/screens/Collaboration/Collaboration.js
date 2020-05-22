@@ -48,7 +48,7 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <Link to="/youtube-content">
+                    <Link to="/youtube-content" style={{marginBottom:"20px"}}>
                       <input type="button" className="btn btn-outline-light" value="Youtube Content"/>
                     </Link>
                   </ul>
