@@ -3,6 +3,10 @@
     margin-top: 80px !important;
   }
 
+  .client-collab {
+    width: 90px !important;
+  }
+
   .profile-card {
     position: relative;
     overflow: hidden;
@@ -21,6 +25,10 @@
 @media only screen and (max-width: 768px) {
   .web-collab {
     margin-top: 50px !important;
+  }
+
+  .client-collab {
+    width: 80px !important;
   }
 
   .profile-card {
@@ -49,6 +57,10 @@
     margin-top: 0px !important;
   }
 
+  .client-collab {
+    width: 80px !important;
+  }
+
   .profile-card {
     position: relative;
     overflow: hidden;
@@ -66,6 +78,9 @@
   }
 }
 
+.client-collab {
+  width: 123px;
+}
 
 .web-collab {
   margin-top: 90px;

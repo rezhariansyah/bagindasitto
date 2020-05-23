@@ -20,6 +20,7 @@ import Flores from "./screens/flores/Flores";
 import komodo from "./screens/komodo/komodo";
 import collaboration from "./screens/Collaboration/Collaboration";
 import YoutubeContent from "./screens/youtubeContent/YoutubeContent";
+import BrandPromotion from "./screens/brandPromotion/BrandPromotion";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route path="/flores" component={Flores} exact />
         <Route path="/komodo" component={komodo} exact />
         <Route path="/youtube-content" component={YoutubeContent} exact />
+        <Route path="/brand-promotion" component={BrandPromotion} exact />
       </BrowserRouter>
     </div>
   );

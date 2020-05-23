@@ -5,8 +5,17 @@ import youtubeContent from "../../assets/collaboration/3.JPG";
 import "./Collaboration.css";
 import Footer from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
+import ateam from "../../assets/ourClient/ateammanagement.jpg";
+import sulsel from "../../assets/ourClient/sulsel.jpg";
+import anjani from "../../assets/ourClient/anjanitrip_PNG.jpg";
+import etcetera from "../../assets/ourClient/et_cetera.jpg";
+import wrangler from "../../assets/ourClient/tw-logo.jpg";
 
 class Collaboration extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <Fragment>
@@ -19,9 +28,11 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <button type="button" className="btn btn-outline-light">
-                      Brand Promotion
-                    </button>
+                    <Link to="/brand-promotion">
+                      <button type="button" className="btn btn-outline-light">
+                        Brand Promotion
+                      </button>
+                    </Link>
                   </ul>
                 </div>
               </div>
@@ -57,6 +68,31 @@ class Collaboration extends Component {
                   </ul>
                 </div>
               </div>
+            </div>
+          </div>
+          <div
+            className="row justify-content-center"
+            style={{ marginTop: "80px" }}
+          >
+            <div className="col-4 text-center">
+              <h4>My Clients</h4>
+            </div>
+          </div>
+          <div className="row justify-content-center text-center flex-wrap align-items-center mt-4">
+            <div className="col-4 col-md-2">
+              <img src={ateam} alt="" className="client-collab" />
+            </div>
+            <div className="col-4 col-md-2">
+              <img src={wrangler} alt="" className="client-collab" />
+            </div>
+            <div className="col-4 col-md-2">
+              <img src={sulsel} alt="" className="client-collab" />
+            </div>
+            <div className="col-4 col-md-2">
+              <img src={etcetera} alt="" className="client-collab" />
+            </div>
+            <div className="col-4 col-md-2">
+              <img src={anjani} alt="" className="client-collab" />
             </div>
           </div>
         </div>
