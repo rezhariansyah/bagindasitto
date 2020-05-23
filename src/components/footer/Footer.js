@@ -146,14 +146,13 @@ const Footer = () => {
                     COLLABORATION
                   </NavLink>
                 </li>
-                <li className="nav-item">
-                  <Link to="/contact" style={{ textDecoration: "none" }}>
-                    <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
-                      CONTACT
-                    </NavLink>
-                  </Link>
-                </li>
               </ul>
+              <h6
+                className="email"
+                style={{ color: "#7B8488", display: "inline" }}
+              >
+                baginda13srg@gmail.com
+              </h6>
             </div>
           </div>
         </nav>

@@ -81,7 +81,7 @@ const Testimonial = () => {
           </p>
           <p className="card-text description" style={{ color: "#7F7F7F" }}>
             Sitto memang petualang sejati. Terbukti menjadi juara 1 Wrangler
-            True Wanderer 2018, mengalahkan 11.400 lawanya. Menjadikan sitto
+            True Wanderer 2018, mengalahkan 11.400 lawannya. Menjadikan sitto
             jadi sangat berpengalaman di bidang travel (Travel Advisor).
             Ide&quot; ke lokasi yang indah mengenai Indonesia dan ditambah skill
             foto dan video membuat sitto seorang yang bertalenta serba bisa :D.
@@ -106,7 +106,7 @@ const Testimonial = () => {
             Asoka Remadja – Travel Blogger &amp; Influencer
           </p>
           <p className="card-text description" style={{ color: "#7F7F7F" }}>
-            Adventure and Fearless
+            Sitto = Adventure and Fearless
           </p>
         </div>
       </div>
@@ -213,7 +213,7 @@ const Testimonial = () => {
             Ketemu di bira pas kakak sopan ini lagi proyek phinisi, setelah itu
             lama&quot; jadi sister. Anaknya easy going dan tetap asik diajak
             joged walaupun dia tim coca cola dingin dan no rokok (gw juga heran,
-            kok bisaaa gak tergoda wkwk), Anyyway I can say he is one of the
+            kok bisaaa gak tergoda wkwk), Anyway I can say he is one of the
             nicest dan honest guy i ever met during the trip. Gak bawel, jago
             foto (ciehh) dan bisa diajak trip kere, jago banget lu bikin
             perencanaan budget. See u next trip cong !

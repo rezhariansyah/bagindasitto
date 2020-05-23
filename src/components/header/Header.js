@@ -130,13 +130,6 @@ const Example = (props) => {
                   </NavLink>
                 </Link>
               </NavItem>
-              <NavItem>
-                <Link to="/contact" style={{ textDecoration: "none" }}>
-                  <NavLink style={{ fontSize: "13px", fontWeight: "bolder" }}>
-                    CONTACT
-                  </NavLink>
-                </Link>
-              </NavItem>
             </Nav>
           </Collapse>
         </div>

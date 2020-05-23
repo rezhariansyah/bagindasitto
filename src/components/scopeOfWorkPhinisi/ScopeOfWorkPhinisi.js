@@ -33,7 +33,7 @@ const ScopeOfWorkPhinisi = () => {
             NAVAL <br /> ARCHITECTURE
           </button>
           <p className="mt-4">
-            SHIP DESIGN OF NEW ONE ALL TYPES AND SIZE <br /> MODIFICATION AND
+            SHIP DESIGN OF NEW ALL TYPES AND SIZE <br /> MODIFICATION AND
             CONVENTION DESIGN <br />
             RE-DESIGN BOAT <br />
             EXTERIOR AND INTERIOR SHIP DESIGN <br />
