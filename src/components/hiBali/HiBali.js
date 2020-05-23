@@ -1,11 +1,5 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import bali1 from "../../assets/travel/bali1.jpg";
-import bali2 from "../../assets/travel/bali2.JPG";
-import bali3 from "../../assets/travel/bali3.jpeg";
-import bali4 from "../../assets/travel/bali4.jpg";
-import bali5 from "../../assets/travel/bali5.jpg";
-import bali6 from "../../assets/travel/bali6.jpg";
 
 
 const responsive = {
@@ -30,22 +24,22 @@ const HiBali = () => {
   return (
     <Carousel responsive={responsive}>
       <div>
-        <img className="slider-image" src={bali1} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590271567/bali1_s3gpcb.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={bali2} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590271570/bali2_verfax.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={bali3} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590271578/bali3_foohqo.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={bali4} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590271586/bali4_sk5lz6.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={bali5} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590271593/bali5_kgizoc.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={bali6} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590271599/bali6_vq7h2h.jpg" alt="..." />
       </div>
     </Carousel>
   );

@@ -1,11 +1,5 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import flores1 from "../../assets/travel/flores1.jpg";
-import flores2 from "../../assets/travel/flores2.jpg";
-import flores3 from "../../assets/travel/flores3.jpg";
-import flores4 from "../../assets/travel/flores4.jpg";
-import flores5 from "../../assets/travel/flores5.jpg";
-import flores6 from "../../assets/travel/flores6.jpg";
 
 const responsive = {
   desktop: {
@@ -29,22 +23,22 @@ const GoFlores = () => {
   return (
     <Carousel responsive={responsive}>
       <div>
-        <img className="slider-image" src={flores1} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590276850/flores1_qsqd0o.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={flores2} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590276860/flores2_qjdzrd.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={flores3} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590276864/flores3_gdhs0t.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={flores4} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590276871/flores4_ak0eah.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={flores5} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590276877/flores5_u4uypu.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={flores6} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590276881/flores6_jjglsi.jpg" alt="..." />
       </div>
     </Carousel>
   );

@@ -11,7 +11,6 @@ import './Banner1.css'
 const items = [
   {
     src: "https://res.cloudinary.com/dewnmhir6/image/upload/v1590265474/carousel2_bgzqnv.jpg",
-    
   },
   {
     src: "https://res.cloudinary.com/dewnmhir6/image/upload/v1590265432/carousel_ndini5.jpg",

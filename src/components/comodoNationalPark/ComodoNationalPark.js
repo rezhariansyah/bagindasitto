@@ -1,11 +1,5 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import komodo1 from "../../assets/travel/komodo1.jpg";
-import komodo2 from "../../assets/travel/komodo2.jpg";
-import komodo3 from "../../assets/travel/komodo3.jpg";
-import komodo4 from "../../assets/travel/komodo4.jpg";
-import komodo5 from "../../assets/travel/komodo5.jpg";
-import komodo6 from "../../assets/travel/komodo6.jpg";
 
 const responsive = {
   desktop: {
@@ -29,22 +23,22 @@ const KomodoNationalPark = () => {
   return (
     <Carousel responsive={responsive}>
       <div>
-        <img className="slider-image" src={komodo1} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277067/komodo1_dnts1z.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={komodo2} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277089/komodo2_fspzmu.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={komodo3} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277094/komodo3_oujgko.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={komodo4} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277097/komodo4_l6izu9.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={komodo5} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277102/komodo5_y9qxmn.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={komodo6} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277110/komodo6_ajepqr.jpg" alt="..." />
       </div>
     </Carousel>
   );

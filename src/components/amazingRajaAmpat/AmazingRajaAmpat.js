@@ -1,11 +1,5 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import rajaampat1 from "../../assets/travel/rajaampat1.jpg";
-import rajaampat2 from "../../assets/travel/rajaampat2.jpg";
-import rajaampat3 from "../../assets/travel/rajaampat3.jpg";
-import rajaampat4 from "../../assets/travel/rajaampat4.jpg";
-import rajaampat5 from "../../assets/travel/rajaampat5.jpg";
-import rajaampat6 from "../../assets/travel/rajaampat6.jpg";
 
 const responsive = {
   desktop: {
@@ -29,22 +23,22 @@ const AmazingRajaAmpat = () => {
   return (
     <Carousel responsive={responsive}>
       <div>
-        <img className="slider-image" src={rajaampat3} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277262/rajaampat3_q0t73l.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={rajaampat5} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277269/rajaampat5_oon77h.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={rajaampat6} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277270/rajaampat6_xvvcbh.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={rajaampat1} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277260/rajaampat1_qiaoif.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={rajaampat2} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277261/rajaampat2_r5lryf.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={rajaampat4} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277268/rajaampat4_x64di8.jpg" alt="..." />
       </div>
     </Carousel>
   );

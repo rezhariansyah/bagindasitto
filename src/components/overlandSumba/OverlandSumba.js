@@ -1,11 +1,5 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import sumba1 from "../../assets/travel/sumba1.jpg";
-import sumba2 from "../../assets/travel/sumba2.jpg";
-import sumba3 from "../../assets/travel/sumba3.jpg";
-import sumba4 from "../../assets/travel/sumba4.jpg";
-import sumba5 from "../../assets/travel/sumba5.jpg";
-import sumba6 from "../../assets/travel/sumba6.jpg";
 
 const responsive = {
   desktop: {
@@ -29,22 +23,22 @@ const OverlandSumba = () => {
   return (
     <Carousel responsive={responsive}>
       <div>
-        <img className="slider-image" src={sumba1} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277686/sumba1_wrn4sx.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={sumba4} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277697/sumba4_hh9tfk.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={sumba3} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277694/sumba3_zigdcq.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={sumba2} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277691/sumba2_srv4af.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={sumba5} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277699/sumba5_loo6ue.jpg" alt="..." />
       </div>
       <div>
-        <img className="slider-image" src={sumba6} alt="..." />
+        <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590277704/sumba6_jgiwhw.jpg" alt="..." />
       </div>
     </Carousel>
   );
