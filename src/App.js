@@ -21,6 +21,7 @@ import komodo from "./screens/komodo/komodo";
 import collaboration from "./screens/Collaboration/Collaboration";
 import YoutubeContent from "./screens/youtubeContent/YoutubeContent";
 import BrandPromotion from "./screens/brandPromotion/BrandPromotion";
+import CampaignPhotoshot from "./screens/campaignPhotoshot/CampaignPhotoshot";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         <Route path="/komodo" component={komodo} exact />
         <Route path="/youtube-content" component={YoutubeContent} exact />
         <Route path="/brand-promotion" component={BrandPromotion} exact />
+        <Route path="/campaign-photoshot" component={CampaignPhotoshot} exact />
       </BrowserRouter>
     </div>
   );

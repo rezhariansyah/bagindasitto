@@ -6,20 +6,18 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from "reactstrap";
-import about from "../../assets/banners/carousel.jpg";
-import travel from "../../assets/banners/carousel2.jpg";
-import phinisi from "../../assets/banners/compress/banner3-min.jpg";
 import './Banner1.css'
 
 const items = [
   {
-    src: travel,
+    src: "https://res.cloudinary.com/dewnmhir6/image/upload/v1590265474/carousel2_bgzqnv.jpg",
+    
   },
   {
-    src: about,
+    src: "https://res.cloudinary.com/dewnmhir6/image/upload/v1590265432/carousel_ndini5.jpg",
   },
   {
-    src: phinisi,
+    src: "https://res.cloudinary.com/dewnmhir6/image/upload/v1590265571/banner3-min_prqe94.jpg",
   },
 ];
 

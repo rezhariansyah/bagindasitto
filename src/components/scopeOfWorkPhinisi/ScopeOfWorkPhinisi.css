@@ -1,0 +1,66 @@
+.line-title {
+  border: 2px solid #765947;
+  text-align: center;
+  width: 100px;
+}
+
+.img-phinisi {
+  width: 344px;
+  height: 344px;
+  -webkit-box-shadow: 6px 5px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 5px 5px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 5px 5px -5px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.title-left-card {
+  position: absolute;
+  top: 30%;
+  left: 38%;
+  color: white;
+  font-size: larger;
+  -webkit-box-shadow: 6px 5px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 5px 5px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 5px 5px -5px rgba(0, 0, 0, 0.75);
+}
+
+.title-right-card {
+  position: absolute;
+  top: 28%;
+  left: 38%;
+  color: white;
+  font-size: larger;
+  -webkit-box-shadow: 6px 5px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 5px 5px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 5px 5px -5px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 600px) {
+  .title-left-card {
+    left: 33%;
+    top: 33%;
+  }
+  .title-right-card {
+    left: 33%;
+    top: 30%;
+  }
+  .img-phinisi {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .img-phinisi {
+    width: 280px;
+    height: 280px;
+  }
+  .title-left-card {
+    left: 30%;
+    top: 30%;
+  }
+  .title-right-card {
+    left: 30%;
+    top: 30%;
+  }
+}

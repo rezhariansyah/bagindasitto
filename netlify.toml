@@ -77,3 +77,8 @@
   from = "/brand-promotion"
   to = "/"
   status = 200
+
+[[redirects]]
+  from = "/campaign-photoshot"
+  to = "/"
+  status = 200

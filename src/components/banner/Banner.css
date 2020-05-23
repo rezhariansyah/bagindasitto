@@ -11,7 +11,7 @@
   padding: 0 20px;
   background-size: cover;
   color: #fff;
-  background-image: url("../../assets/banners/compress/banner1-min.jpg");
+  background-image: url("https://res.cloudinary.com/dewnmhir6/image/upload/v1590264591/banner1-min_uzn08i.jpg");
   /* background-image: url("../../assets/banners/compress/bannerMobile.jpg"); */
   background-position: center center;
   margin-top: -56px;
@@ -67,7 +67,7 @@
 @media only screen and (max-width: 600px) {
   .mobile {
     height: 700px;
-    background-image: url("../../assets/banners/IMG_0569.JPG");
+    background-image: url("https://res.cloudinary.com/dewnmhir6/image/upload/v1590265072/bannerMobile_xrc722.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -1,9 +1,5 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import about from "../../assets/categories/about.JPG";
-import travel from "../../assets/banners/compress/travel.png";
-import phinisi from "../../assets/categories/maps-min.png";
-import collaboration from "../../assets/banners/compress/tips-min.jpg";
 import "./Categories.css";
 
 const Categories = () => {
@@ -36,7 +32,7 @@ const Categories = () => {
       <div className="row justify-content-sm-center ">
         <div className="col-md-3 col-sm-6 mt-3">
           <div className="card">
-            <img src={about} className="card-img-top" alt="..." />
+            <img src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590265128/about_bvb9jo.jpg" className="card-img-top" alt="..." />
             <div className="title">
               <input
                 onClick={aboutnav}
@@ -49,7 +45,7 @@ const Categories = () => {
         </div>
         <div className="col-md-3 col-sm-6 mt-3">
           <div className="card">
-            <img src={travel} className="card-img-top" alt="..." />
+            <img src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590265310/travel_vrgeeu.jpg" className="card-img-top" alt="..." />
             <div className="title">
               <input
                 onClick={travelnav}
@@ -62,7 +58,7 @@ const Categories = () => {
         </div>
         <div className="col-md-3 col-sm-6 mt-3">
           <div className="card">
-            <img src={phinisi} className="card-img-top" alt="..." />
+            <img src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590265236/maps-min_ndgihd.png" className="card-img-top" alt="..." />
             <div className="title">
               <input
                 onClick={phinisinav}
@@ -75,7 +71,7 @@ const Categories = () => {
         </div>
         <div className="col-md-3 col-sm-6 mt-3">
           <div className="card">
-            <img src={collaboration} className="card-img-top" alt="..." />
+            <img src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590265362/tips-min_cxet94.jpg" className="card-img-top" alt="..." />
             <div className="title">
               <input
                 onClick={collaborationnav}

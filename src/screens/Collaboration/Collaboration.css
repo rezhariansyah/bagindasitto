@@ -86,12 +86,6 @@
   margin-top: 90px;
 }
 
-.btn:hover {
-  color: white !important;
-  background-color: transparent !important;
-  text-decoration: none;
-}
-
 .title-card-collab {
   color: white;
   width: 100%;

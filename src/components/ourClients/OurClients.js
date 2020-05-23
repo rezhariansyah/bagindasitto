@@ -11,6 +11,7 @@ import Wrangler_logo_gray from "../../assets/ourClient/Wrangler_logo_gray.jpg";
 import papiton from "../../assets/ourClient/3.jpg";
 import travass from "../../assets/ourClient/5.jpg";
 import p from "../../assets/ourClient/8.jpg";
+import vinca from "../../assets/ourClient/vinca.PNG";
 
 const OurClients = () => {
   return (
@@ -55,6 +56,9 @@ const OurClients = () => {
         </div>
         <div className="col-4 col-md-2 mt-4">
           <img src={Wrangler_logo_gray} alt="..." className="logo-client" />
+        </div>
+        <div className="col-4 col-md-2 mt-4">
+          <img src={vinca} alt="..." className="logo-client" />
         </div>
       </div>
     </div>

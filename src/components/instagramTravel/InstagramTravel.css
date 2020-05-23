@@ -1,0 +1,27 @@
+.travel-instagram {
+  width: 187px;
+  height: 187px;
+  cursor: pointer;
+}
+
+.travel-left {
+  padding-right: 2px !important;
+}
+
+.travel-right {
+  padding-left: 2px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .travel-instagram {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .travel-instagram {
+    width: 130px;
+    height: 130px;
+  }
+}

@@ -44,9 +44,11 @@ class Collaboration extends Component {
                 </div>
                 <div className="profile-content">
                   <ul className="social-link">
-                    <button type="button" className="btn btn-outline-light">
-                      Campaign Photoshot
-                    </button>
+                    <Link to="/campaign-photoshot">
+                      <button type="button" className="btn btn-outline-light">
+                        Campaign Photoshot
+                      </button>
+                    </Link>
                   </ul>
                 </div>
               </div>

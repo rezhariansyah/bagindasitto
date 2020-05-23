@@ -3,7 +3,7 @@
   padding: 0 20px;
   background-size: cover;
   color: #fff;
-  background-image: url("../../assets/phinisi/phinisi-banner.jpeg");
+  background-image: url("https://res.cloudinary.com/dewnmhir6/image/upload/v1590265870/phinisi-banner_szgjao.jpg");
   background-position: center center;
   margin-top: -100px;
 }
@@ -88,7 +88,7 @@
 @media only screen and (max-width: 600px) {
   .mobilePhinisi {
     height: 700px;
-    background-image: url("../../assets/phinisi/banner/mobile.JPG");
+    background-image: url("https://res.cloudinary.com/dewnmhir6/image/upload/v1590265980/mobile_wh696i.jpg");
     background-position: 40%;
     background-size: cover;
     background-repeat: no-repeat;

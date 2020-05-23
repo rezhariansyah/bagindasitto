@@ -3,27 +3,16 @@ import "./Phinisi.css";
 import responsive from "../../components/multiCarousel/MultiCarousel";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import panrita1 from "../../assets/phinisi/panrita/panrita1.jpg";
-import panrita2 from "../../assets/phinisi/panrita/panrita2.jpg";
-import panrita3 from "../../assets/phinisi/panrita/panrita3.jpg";
-import panrita4 from "../../assets/phinisi/panrita/panrita4.jpg";
-import panrita5 from "../../assets/phinisi/panrita/panrita5.jpg";
-import panrita6 from "../../assets/phinisi/panrita/panrita6.jpg";
-import tamparang1 from "../../assets/phinisi/tamparang/tamparang1.jpg";
-import tamparang2 from "../../assets/phinisi/tamparang/tamparang2.jpg";
-import tamparang3 from "../../assets/phinisi/tamparang/tamparang3.jpg";
-import tamparang4 from "../../assets/phinisi/tamparang/tamparang4.jpg";
-import tamparang5 from "../../assets/phinisi/tamparang/tamparang5.jpg";
-import tamparang6 from "../../assets/phinisi/tamparang/tamparang6.jpg";
-import lopi1 from "../../assets/phinisi/lopi/lopi1.jpg";
-import lopi2 from "../../assets/phinisi/lopi/lopi2.jpg";
-import lopi3 from "../../assets/phinisi/lopi/lopi3.JPG";
-import lopi4 from "../../assets/phinisi/lopi/lopi4.JPG";
 import logo from "../../assets/phinisi/PNG5.png";
 import Footer from "../../components/footer/Footer";
 import SchrollUp from "../../components/backToTop/BackToTop";
 import titlelogo from "../../assets/phinisi/Ship Consultant.png";
+import ScopeOfWorkPhinisi from "../../components/scopeOfWorkPhinisi/ScopeOfWorkPhinisi";
+
 class Phinisi extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <Fragment>
@@ -32,7 +21,7 @@ class Phinisi extends Component {
             <div className="row align-items-end">
               <div className="col">
                 <img className="logo-riara" src={logo} alt="..." />
-                <img src={titlelogo} className="title-logo" alt="..."/>
+                <img src={titlelogo} className="title-logo" alt="..." />
               </div>
             </div>
           </div>
@@ -45,29 +34,33 @@ class Phinisi extends Component {
                 <h5 style={{ display: "inline" }} className="mr-3 title-slider">
                   "PANRITA"
                 </h5>
-                <p style={{display:"inline"}}><i style={{fontSize:"smaller"}}>Our Experienced Handyman</i></p>
+                <p style={{ display: "inline" }}>
+                  <i style={{ fontSize: "smaller" }}>
+                    Our Experienced Handyman
+                  </i>
+                </p>
               </div>
             </div>
           </div>
           <div className="container slider-multi">
             <Carousel responsive={responsive}>
               <div>
-                <img className="slider-image" src={panrita1} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266090/panrita1_bwse97.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={panrita2} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266142/panrita2_xyi9s3.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={panrita3} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266151/panrita3_f6csvh.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={panrita4} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266157/panrita4_pims6x.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={panrita5} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266167/panrita5_tll51p.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={panrita6} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266176/panrita6_hoeuqx.jpg" alt="..." />
               </div>
             </Carousel>
           </div>
@@ -77,29 +70,33 @@ class Phinisi extends Component {
                 <h5 style={{ display: "inline" }} className="mr-3 title-slider">
                   "TAMPARANG"
                 </h5>
-                <p style={{display:"inline"}}><i style={{fontSize:"smaller"}}>A Blend of Traditional and Modern methods in our shipyard</i></p>
+                <p style={{ display: "inline" }}>
+                  <i style={{ fontSize: "smaller" }}>
+                    A Blend of Traditional and Modern methods in our shipyard
+                  </i>
+                </p>
               </div>
             </div>
           </div>
           <div className="container slider-multi">
             <Carousel responsive={responsive}>
               <div>
-                <img className="slider-image" src={tamparang1} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266309/tamparang1_najdsh.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={tamparang2} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266314/tamparang2_ykk1to.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={tamparang3} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266320/tamparang3_vidzfk.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={tamparang4} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266326/tamparang4_mx7iki.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={tamparang5} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266332/tamparang5_o3jrce.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={tamparang6} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590266338/tamparang6_vrtrdh.jpg" alt="..." />
               </div>
             </Carousel>
           </div>
@@ -109,27 +106,32 @@ class Phinisi extends Component {
                 <h5 style={{ display: "inline" }} className="mr-3 title-slider">
                   "LOPI"
                 </h5>
-                <p style={{display:"inline"}}><i style={{fontSize:"smaller"}}>That’s mean Boat. Boat that we have designed and produced.</i></p>
+                <p style={{ display: "inline" }}>
+                  <i style={{ fontSize: "smaller" }}>
+                    That’s mean Boat. Boat that we have designed and produced.
+                  </i>
+                </p>
               </div>
             </div>
           </div>
           <div className="container slider-multi">
             <Carousel responsive={responsive}>
               <div>
-                <img className="slider-image" src={lopi1} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590268188/lopi1_zexq7k.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={lopi2} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590268193/lopi2_ifk0io.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={lopi3} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590268200/lopi3_wjspfj.jpg" alt="..." />
               </div>
               <div>
-                <img className="slider-image" src={lopi4} alt="..." />
+                <img className="slider-image" src="https://res.cloudinary.com/dewnmhir6/image/upload/v1590268205/lopi4_yh5brb.jpg" alt="..." />
               </div>
             </Carousel>
           </div>
         </div>
+        <ScopeOfWorkPhinisi />
         <Footer />
       </Fragment>
     );
