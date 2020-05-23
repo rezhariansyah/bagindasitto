@@ -94,7 +94,7 @@ class CampaignPhotoshot extends Component {
               <img src={logoGuide} alt="" className="client-collab" />
             </div>
             <div className="col-4 col-md-2">
-              <h2><i>Feat</i></h2>
+              <h2><i>x</i></h2>
             </div>
             <div className="col-4 col-md-2">
               <img src={etcetera} alt="" className="client-collab" />
