@@ -147,12 +147,19 @@ const Footer = () => {
                   </NavLink>
                 </li>
               </ul>
-              <h6
-                className="email"
-                style={{ color: "#7B8488", display: "inline" }}
+              <a
+                href="http://riara-phinisi.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
               >
-                baginda13srg@gmail.com
-              </h6>
+                <h6
+                  className="email"
+                  style={{ color: "#7B8488", display: "inline" }}
+                >
+                  www.riara-phinisi.com
+                </h6>
+              </a>
             </div>
           </div>
         </nav>

@@ -104,7 +104,10 @@
   }
 
   .title-logo {
-    display: none;
+    width: 200px;
+    top: 641px;
+    left: 0px;
+    position: absolute;
   }
 
   .logo-riara {

@@ -17,7 +17,7 @@ class CampaignPhotoshot extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container">
+        <div className="container" style={{minHeight:"800px"}}>
           <div
             className="row justify-content-center mb-5 flex-wrap align-items-center"
             style={{ marginTop: "100px" }}

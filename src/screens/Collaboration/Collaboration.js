@@ -19,7 +19,7 @@ class Collaboration extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container">
+        <div className="container" style={{minHeight:"800px"}}>
           <div className="row justify-content-center web-collab">
             <div className="col-md-3">
               <div className="profile-card">

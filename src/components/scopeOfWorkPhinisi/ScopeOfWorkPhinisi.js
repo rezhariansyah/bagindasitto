@@ -55,9 +55,8 @@ const ScopeOfWorkPhinisi = () => {
             SHIP ANALYSIS <br /> AND <br /> PRODUCTION
           </button>
           <p className="mt-4">
-            INTACT AND DAMAGE STABILITY <br />
+            INTACT <br />
             SHIP STRUCTURES <br />
-            MOTION AND MOORING ANALYSIS <br />
             PRODUCTION BOAT <br />
             SAFETY PLAN <br />
             PROJECT MANAGEMENT <br />

@@ -8,7 +8,7 @@ class BrandPromotion extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container">
+        <div className="container" style={{minHeight:"800px"}}>
           <div className="row flex-wrap align-items-center justify-content-center mt-3 mb-5">
             <div
               className="col-lg-6 mt-5"
