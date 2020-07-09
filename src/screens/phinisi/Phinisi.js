@@ -6,7 +6,6 @@ import "react-multi-carousel/lib/styles.css";
 import logo from "../../assets/phinisi/PNG5.png";
 import Footer from "../../components/footer/Footer";
 import SchrollUp from "../../components/backToTop/BackToTop";
-import titlelogo from "../../assets/phinisi/Ship Consultant.png";
 import ScopeOfWorkPhinisi from "../../components/scopeOfWorkPhinisi/ScopeOfWorkPhinisi";
 
 class Phinisi extends Component {

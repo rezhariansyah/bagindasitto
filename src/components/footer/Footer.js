@@ -2,10 +2,6 @@ import React, { Fragment } from "react";
 import { Link, useHistory } from "react-router-dom";
 import {
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
 } from "reactstrap";
 import "./Footer.css";
 

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 import "./InstagramTravel.css";
 import instagram1 from "../../assets/instagram/travelFooter1.jpg";
 import instagram2 from "../../assets/instagram/travelFooter2.jpg";
