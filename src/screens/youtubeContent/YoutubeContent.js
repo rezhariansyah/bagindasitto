@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from "react";
-import VideoContent from "../../components/videoContent/Video1Content";
 import "./YoutubeContent.css";
-import VideoContent2 from "../../components/videoContent/Video2Content";
 import Footer from "../../components/footer/Footer";
 import ateam from "../../assets/ourClient/anjanitrip_PNG.jpg";
 import anjani from "../../assets/ourClient/ateammanagement.jpg";
 import sulsel from "../../assets/ourClient/sulsel.jpg";
+import VideoContent from "../../components/videoContent/Video1Content";
+import VideoYoutubeContent from "../../components/videoContent/VideoYoutubeConcent";
 
 class YoutubeContent extends Component {
   componentDidMount() {
@@ -20,7 +20,7 @@ class YoutubeContent extends Component {
               className="col-lg-6 mt-5"
               className="embed-responsive embed-responsive-21by9"
             >
-              <VideoContent videoId="HnlHcn8wxb0" />
+              <VideoYoutubeContent videoId="HnlHcn8wxb0" />
             </div>
             <div className="col-lg-6 description-video">
               <p>
@@ -39,7 +39,7 @@ class YoutubeContent extends Component {
               className="col-lg-6 mt-5"
               className="embed-responsive embed-responsive-21by9"
             >
-              <VideoContent2 videoId="Y5jaieac_N4" />
+              <VideoContent videoId="Y5jaieac_N4" />
             </div>
             <div className="col-lg-6 description-video">
               <p>

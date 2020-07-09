@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import "./CampaignPhotoshot.css";
-import VideoContent from "../../components/videoContent/Video1Content";
+// import VideoContent from "../../components/videoContent/Video1Content";
 import brandPromotion1 from "../../assets/instagram/brandPromotion1.jpg";
 import brandPromotion2 from "../../assets/instagram/brandPromotion2.jpg";
 import brandPromotion3 from "../../assets/instagram/brandPromotion3.jpg";
@@ -8,6 +8,7 @@ import brandPromotion4 from "../../assets/instagram/brandPromotion4.jpg";
 import Footer from "../../components/footer/Footer";
 import logoGuide from "../../assets/phinisi/TRAST.GUIDE_HITAM.png";
 import etcetera from "../../assets/ourClient/et_cetera.jpg";
+import VideoCampaignPhotoshot from "../../components/videoContent/VideoCampaignPhotoshot";
 
 
 class CampaignPhotoshot extends Component {
@@ -26,7 +27,7 @@ class CampaignPhotoshot extends Component {
               className="col-md-6"
               className="embed-responsive embed-responsive-21by9"
             >
-              <VideoContent videoId="dvbPkWhUhHE" />
+              <VideoCampaignPhotoshot />
             </div>
             <div className="col-md-6">
               <div className="row text-center">
